@@ -57,7 +57,7 @@
     .titulo-segundo.color-secundario
       h2#t_2_2 2.2 Observación
 
-    p mb-5(data-aos="fade-left") A través de la acción de la observación, el ser humano percibe su entorno; gracias a ello, es capaz de registrar situaciones y fenómenos ocurridos en un lugar y momento determinados. En cierto sentido, funciona como un sistema de recolección de información, puesto que lleva a identificar eventos asociados a algún estímulo en particular, como se muestra a continuación:
+    p.mb-5(data-aos="fade-left") A través de la acción de la observación, el ser humano percibe su entorno; gracias a ello, es capaz de registrar situaciones y fenómenos ocurridos en un lugar y momento determinados. En cierto sentido, funciona como un sistema de recolección de información, puesto que lleva a identificar eventos asociados a algún estímulo en particular, como se muestra a continuación:
 
     .row
       .tarjeta.p-4.mb-5(data-aos="flip-up")(style="background-color:#FFFAD0")
@@ -66,14 +66,14 @@
             .col-md-5.mb-4.mb-md-0.p-4
               h4(data-aos="fade-left") La observación y sus ventajas
               p(data-aos="fade-left") Es una metodología amplia, que puede ser aplicada de manera individual, lo que puede significar un ahorro significativo en los costos asociados a una investigación. Por ejemplo, si para llevar a cabo el estudio se hace necesario el transporte a zonas alejadas, la disminución en gastos de viaje al llevar un solo investigador puede implicar la viabilidad o no de todo un proyecto
-            .col-md-6.p-4
+            .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='Texto que describa la imagen')
                 
           .row.justify-content-center.align-items-center 
             .col-md-5.mb-4.mb-md-0.p-4
               p(data-aos="fade-left") Esta particularidad también puede homogeneizar los resultados obtenidos, ya que el hecho de que una sola persona se encuentre involucrada en el proceso evitará distorsiones producto de la pluralidad de opiniones; en contrasentido, es factible que los resultados obtenidos contengan una mayor dosis de subjetividad, al abordar los eventos desde un mismo punto de vista.
-            .col-md-6.p-4
+            .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/7.svg', alt='Texto que describa la imagen')
 
@@ -81,7 +81,7 @@
             .col-md-5.mb-4.mb-md-0.p-4
               h4(data-aos="fade-left") Se puede realizar en cualquier momento de los procesos
               p(data-aos="fade-left") La observación puede ser aplicada en casi cualquier etapa de la investigación, desde la concepción de la problemática a estudiar hasta para la corroboración de las hipótesis evaluadas. Por ejemplo, si un operario identifica comportamientos extraños en algunas de las reses, puede esto motivar a preguntarse si proceden de problemas de salud.
-            .col-md-6.p-4
+            .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/8.svg', alt='Texto que describa la imagen')
           
@@ -89,7 +89,7 @@
             .col-md-5.mb-4.mb-md-0.p-4
               h4(data-aos="fade-left") Pronóstico y aproximación al problema
               p(data-aos="fade-left") En un escenario posterior, la observación aplicaría como herramienta de aproximación a la problemática, para generar un diagnóstico. Dando continuidad al ejemplo anterior, en este apartado se consultaría con un experto en la materia, donde, a partir de un análisis detallado a un número determinado de animales afectados, se determine si hay patologías comunes o solo casos aislados, que no representan un problema real.
-            .col-md-6.p-4
+            .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/9.svg', alt='Texto que describa la imagen')
 
@@ -97,7 +97,7 @@
             .col-md-5.mb-4.mb-md-0.p-4
               h4(data-aos="fade-left") Diagnóstico
               p(data-aos="fade-left") Una última etapa consiste en la recolección de los datos, donde, a partir de criterios de validez y fiabilidad, se registren aquellos que cumplan con las condiciones exigidas, de tal forma que se puedan presentar conclusiones o afirmaciones a la muestra. Para el caso del ejemplo, en esta etapa se presenta un diagnóstico de la muestra seleccionada y, a partir de lo allí descrito, se evalúan las medidas a tomar.
-            .col-md-6.p-4
+            .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/10.svg', alt='Texto que describa la imagen')
 
@@ -167,31 +167,31 @@
           p Este criterio contempla como elemento diferenciador la cercanía del observador con el fenómeno estudiado. Se diferencia un escenario en el que ejecuta las pruebas y analiza los eventos, o por el contrario, el material analizado proviene de terceros.
         .tarjeta.color-acento-botones.p-3(x="76.2%" y="44.3%" numero="")
           .h5.mb-2 Según el lugar
-          p contempla las condiciones del lugar donde se desarrollan los hechos observables y a partir de ellas presenta la siguiente clasificación:
+          p Contempla las condiciones del lugar donde se desarrollan los hechos observables y a partir de ellas presenta la siguiente clasificación:
         .tarjeta.color-acento-botones.p-3(x="22.4%" y="75%" numero="")
           .h5.mb-2 Estructurada
-          p goza de un trabajo de planeación previo a la ejecución de la metodología, de tal forma que se haga uso de procedimientos estructurados de recopilación de datos. Suele delimitar el campo de observación, puesto que desde un inicio se define el alcance del estudio.
+          p Goza de un trabajo de planeación previo a la ejecución de la metodología, de tal forma que se haga uso de procedimientos estructurados de recopilación de datos. Suele delimitar el campo de observación, puesto que desde un inicio se define el alcance del estudio.
         .tarjeta.color-acento-botones.p-3(x="48%" y="75%" numero="")
           .h5.mb-2 Participante
-          p cuando el observador tiene injerencia sobre el objeto de estudio, ejecutando acciones que afecten el fenómeno. Suele requerir de preparación previa para hacer la interacción más orgánica o menos forzada.
+          p Cuando el observador tiene injerencia sobre el objeto de estudio, ejecutando acciones que afecten el fenómeno. Suele requerir de preparación previa para hacer la interacción más orgánica o menos forzada.
         .tarjeta.color-acento-botones.p-3(x="72.9%" y="75%" numero="")
           .h5.mb-2 Directa
-          p el observador contempla la situación de primera mano, evalúa los acontecimientos y presenta unas conclusiones a partir de ello. La información puede ser de mayor o menor calidad según la experticia del investigador y de lo estructurado del proceso.
+          p El observador contempla la situación de primera mano, evalúa los acontecimientos y presenta unas conclusiones a partir de ello. La información puede ser de mayor o menor calidad según la experticia del investigador y de lo estructurado del proceso.
         .tarjeta.color-acento-botones.p-3(x="97.5%" y="75%" numero="")
           .h5.mb-2 En la vida real
-          p estudia situaciones en las que el observador no tiene ningún tipo de participación, los hechos suceden en un ambiente completamente real, sin ninguna preparación o puesta en escena que los aleje de la realidad.
+          p Estudia situaciones en las que el observador no tiene ningún tipo de participación, los hechos suceden en un ambiente completamente real, sin ninguna preparación o puesta en escena que los aleje de la realidad.
         .tarjeta.color-acento-botones.p-3(x="22.4%" y="93.5%" numero="")
           .h5.mb-2 No estructurada
-          p no sigue ningún esquema previo para el registro de los datos, presenta amplias limitaciones en su ejecución, por lo que suele utilizarse en etapas tempranas de reconocimiento de los objetos a estudiar.
+          p No sigue ningún esquema previo para el registro de los datos, presenta amplias limitaciones en su ejecución, por lo que suele utilizarse en etapas tempranas de reconocimiento de los objetos a estudiar.
         .tarjeta.color-acento-botones.p-3(x="48%" y="93.5%" numero="")
           .h5.mb-2 No participante
-          p los hechos ocurren de manera ajena al observador, tiene una postura como espectador y se limita a registrar las situaciones.
+          p Los hechos ocurren de manera ajena al observador, tiene una postura como espectador y se limita a registrar las situaciones.
         .tarjeta.color-acento-botones.p-3(x="72.8%" y="93.5%" numero="")
           .h5.mb-2 Indirecta
-          p los datos provienen de fuentes de investigación y, por lo tanto, el observador realiza un trabajo de análisis a partir de fenómenos que no está presenciando directamente. En este sentido, existe un apoyo proveniente de otros investigadores, que suele presentarse en diversas formas, como encuestas o cuestionarios.
+          p Los datos provienen de fuentes de investigación y, por lo tanto, el observador realiza un trabajo de análisis a partir de fenómenos que no está presenciando directamente. En este sentido, existe un apoyo proveniente de otros investigadores, que suele presentarse en diversas formas, como encuestas o cuestionarios.
         .tarjeta.color-acento-botones.p-3(x="97.5%" y="93.5%" numero="")
           .h5.mb-2 Experimental
-          p suelen ser llevados a cabo en ambientes controlados y manipulados por el equipo investigador. Aquí se busca provocar situaciones específicas, que se aproximen a los fenómenos que se quiere estudiar, velando por no modificar su estructura natural.
+          p Suelen ser llevados a cabo en ambientes controlados y manipulados por el equipo investigador. Aquí se busca provocar situaciones específicas, que se aproximen a los fenómenos que se quiere estudiar, velando por no modificar su estructura natural.
 
     h3.titulo-tercero 2.2.3	#[em Instrumentos para la recolección de información]
 
@@ -210,23 +210,23 @@
           
           .tarjeta.color-acento-contenido.p-3(x="50.1%" y="3.9%" numero="")
             .h5.mb-2 El diario
-            p en él se registran todos los hechos desde el inicio del trabajo de observación. Es una herramienta flexible, por lo que pueden anotarse todo tipo de sugerencias, ideas o comentarios, ya sean de naturaleza práctica o teórica. El nivel de detalle dependerá del juicio del observador, por lo que puede ser utilizado una vez se desarrolle una actividad determinada, una situación relevante o al final de la jornada.
+            p En él se registran todos los hechos desde el inicio del trabajo de observación. Es una herramienta flexible, por lo que pueden anotarse todo tipo de sugerencias, ideas o comentarios, ya sean de naturaleza práctica o teórica. El nivel de detalle dependerá del juicio del observador, por lo que puede ser utilizado una vez se desarrolle una actividad determinada, una situación relevante o al final de la jornada.
             p Su extensión dependerá de la complejidad del fenómeno estudiado y el nivel de detalle que busque el observador; se recomienda el uso de una escritura precisa, ordenada y clara para ser consultada por los colaboradores.
           .tarjeta.color-acento-contenido.p-3(x="91.9%" y="42.8%" numero="")
             .h5.mb-2 Cuaderno de notas
-            p opera de forma semejante al diario, pero con la particularidad de ser portado por el investigador en todo momento. Lo anterior permite registrar los hechos de forma inmediata después de su ocurrencia, lo que dota de precisión su registro, pero, como contrapartida, su estructura será menos ordenada.
+            p Opera de forma semejante al diario, pero con la particularidad de ser portado por el investigador en todo momento. Lo anterior permite registrar los hechos de forma inmediata después de su ocurrencia, lo que dota de precisión su registro, pero, como contrapartida, su estructura será menos ordenada.
             p Puede funcionar en manera conjunta con el diario, haciendo uso del cuaderno de notas para registrar rápidamente cada situación que lo amerite, y del diario, al finalizar la jornada de trabajo, donde se registren los eventos con mayor calma y con una estructura mucho más robusta.
           .tarjeta.color-acento-contenido.p-3(x="65.5%" y="95.3%" numero="")
             .h5.mb-2 Mapas
-            p son una herramienta que aporta un contexto a la investigación, dotándola de una dimensión física determinada. En esta categoría, se encuentran también los planos y cualquier otro tipo de representación gráfica que otorgue una noción respecto a ubicación o límites de la zona estudiada.
+            p Son una herramienta que aporta un contexto a la investigación, dotándola de una dimensión física determinada. En esta categoría, se encuentran también los planos y cualquier otro tipo de representación gráfica que otorgue una noción respecto a ubicación o límites de la zona estudiada.
             p Pueden ser tan detallados como el investigador considere; es recomendable que incluyan datos relevantes para el fenómeno. Por ejemplo, los estudios de mercado suelen estar delimitados a zonas geográficas específicas, por lo que un mapa de la ciudad, donde se resalte la localidad donde se realiza la investigación, puede también presentar otros datos, como género, edad o estrato económico, que pueden aportar para relacionar las variables a la hora de interpretar los resultados.
           .tarjeta.color-acento-contenido.p-3(x="33.8%" y="95.3%" numero="")
             .h5.mb-2 Dispositivos mecánicos
-            p en la actualidad, existen diversos mecanismos que pueden facilitar el proceso de registro en una investigación. Dispositivos como las cámaras fotográficas o las grabadoras de voz pueden recopilar información objetiva y ser reproducida de manera asíncrona para elevar el nivel de detalle.
+            p En la actualidad, existen diversos mecanismos que pueden facilitar el proceso de registro en una investigación. Dispositivos como las cámaras fotográficas o las grabadoras de voz pueden recopilar información objetiva y ser reproducida de manera asíncrona para elevar el nivel de detalle.
             p Se recomienda especial cuidado a la hora de compartir  la información registrada por estos medios, puesto que la privacidad de los participantes puede ser vulnerada, más aún si no se cuenta con un consentimiento previo al estudio.
           .tarjeta.color-acento-contenido.p-3(x="8.2%" y="42.8%" numero="")
             .h5.mb-2 Cuadros de trabajo
-            p suele ser una herramienta de uso posterior a las anteriores. Con ella, se busca la tabulación y ordenamiento de la información recopilada, a través del uso de tablas en las que las filas listen los participantes y las columnas las variables, o viceversa. Existe un sinnúmero de posibilidades a la hora de diseñar cuadros de trabajo, su flexibilidad depende enteramente de los recursos del investigador y su creatividad.
+            p Suele ser una herramienta de uso posterior a las anteriores. Con ella, se busca la tabulación y ordenamiento de la información recopilada, a través del uso de tablas en las que las filas listen los participantes y las columnas las variables, o viceversa. Existe un sinnúmero de posibilidades a la hora de diseñar cuadros de trabajo, su flexibilidad depende enteramente de los recursos del investigador y su creatividad.
             p Se recomienda su uso para investigaciones con un alto componente cuantitativo, o con muchos sujetos a estudiar, puesto que la información puede consolidarse y presentarse de forma resumida, sin obviar detalles de relevancia.
 
     p.mt-5.mb-5(data-aos="fade-left") El siguiente ejemplo presenta una lista de vehículos que un concesionario ofrece y con la que se busca determinar cuáles son las preferencias del público objetivo. Así, se listan los colores de los modelos que ingresaron a revisión periódica en una semana:
@@ -326,11 +326,9 @@
     .row.justify-content-center.align-items-center 
       .col-lg-8.mb-5
         figure.desktop(data-aos="flip-up")
-          img(src='@/assets/curso/temas/tema2/20.svg', alt='Texto que describa la imagen')
-          figcaption Nota. Elaboración propia
+          img(src='@/assets/curso/temas/tema2/20.svg', alt='Texto que describa la imagen')          
         figure.movil(data-aos="flip-up")
-          img(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen')
-          figcaption Nota. Elaboración propia
+          img(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen')          
 
     .row.justify-content-center.align-items-center
       .col-lg-8 
@@ -477,13 +475,12 @@
     .row.justify-content-center.align-items-center
       .col-10.mt-3
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").text-center.mb-3 Posibilidades
-              .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
-            .col-lg-8
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              h2(data-aos="fade-left").mb-3 Posibilidades
+              figure
+                img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
+            .col-lg-8.p-4
               .bloque-texto-a__texto.p-4
                 ul.lista-ul.mb-3
                   li 
@@ -502,13 +499,12 @@
     .row.justify-content-center.align-items-center
       .col-10.mt-3
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").text-center.mb-3 Limitaciones
-              .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
-            .col-lg-8
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              h2(data-aos="fade-left").mb-3 Limitaciones
+              figure
+                img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
+            .col-lg-8.p-4
               .bloque-texto-a__texto.p-4
                 ul.lista-ul.mb-3
                   li 
@@ -589,7 +585,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/37.svg', alt='Texto que describa la imagen')
           .col-xl-8.offset-1
-            p.text-small la respuesta dada por el encuestado será tan extensa como él considere; la podrá abordar de forma espontánea, haciendo uso de la terminología que conozca y con la que se sienta cómodo. La mayor ventaja de este tipo de preguntas es que se puede obtener información más profunda y detallada, sin embargo, la consolidación de los datos resulta mucho más compleja, al no poder estandarizar la respuesta dentro de un grupo de posibilidades. 
+            p.text-small La respuesta dada por el encuestado será tan extensa como él considere; la podrá abordar de forma espontánea, haciendo uso de la terminología que conozca y con la que se sienta cómodo. La mayor ventaja de este tipo de preguntas es que se puede obtener información más profunda y detallada, sin embargo, la consolidación de los datos resulta mucho más compleja, al no poder estandarizar la respuesta dentro de un grupo de posibilidades. 
       
       .tarjeta.color-acento-botones--borde.p-4(titulo="Cerradas")
         .row.justify-content-center.align-items-center
@@ -597,7 +593,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/38.svg', alt='Texto que describa la imagen')
           .col-xl-8.offset-1
-            p.text-small las personas consultadas se ven limitadas a una serie de opciones de respuesta preconcebidas. Lo anterior limita las posibilidades de obtención de información, pero facilita su estandarización, tabulación o análisis. Las opciones de respuesta deben ser concretas y excluyentes, para evitar que un mismo encuestado considere dos o más opciones como respuestas correctas. Este modelo suele ser particularmente útil para identificar tendencias o conductas comunes.
+            p.text-small Las personas consultadas se ven limitadas a una serie de opciones de respuesta preconcebidas. Lo anterior limita las posibilidades de obtención de información, pero facilita su estandarización, tabulación o análisis. Las opciones de respuesta deben ser concretas y excluyentes, para evitar que un mismo encuestado considere dos o más opciones como respuestas correctas. Este modelo suele ser particularmente útil para identificar tendencias o conductas comunes.
             p.text-small Dentro de las preguntas cerradas, se puede hablar de dos tipos, las preguntas dicotómicas, cuyas opciones de respuesta se reducen a dos: si/no, falso/verdadero; por otra parte, las preguntas de elección múltiple incrementan el número de opciones a elegir, no existe un límite fijo, por lo que dependerá de la amplitud de la pregunta y de la experticia del encuestador. Ejemplo de estas últimas son las preguntas de satisfacción, donde las opciones pueden ir del 1 al 10. 
     
     p.mt-5.mb-3(data-aos="fade-left") A la hora de diseñar el cuestionario, se pueden incluir tanto preguntas abiertas como cerradas. En este sentido, se aconseja que se intercalen, para evitar que el encuestado se agote. También se recomienda la formulación de preguntas de control, en las que se plantee una misma pregunta haciendo uso de otros términos, para corroborar la coherencia entre respuestas.
@@ -713,7 +709,7 @@
         
         .tarjeta.color-acento-botones.p-3(x="23.4%" y="51.9%" numero="")
           .h5.mb-2 Exploratorio
-          p suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
+          p Suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
         .tarjeta.color-acento-botones.p-3(x="23.4%" y="64.1%" numero="")
           .h5.mb-2 Descriptivo
           p Presentan un detalle de la realidad empírica de los documentos. Describen los aspectos más relevantes de la situación estudiada y, a través de ellos, proponen modificaciones o adiciones.
@@ -754,7 +750,7 @@
         
         .tarjeta.color-acento-botones.p-3(x="77.4%" y="77%" numero="")
           .h5.mb-2 Exploratorio
-          p suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
+          p Suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
         .tarjeta.color-acento-botones.p-3(x="77.4%" y="83.5%" numero="")
           .h5.mb-2 Descriptivo
           p Presentan un detalle de la realidad empírica de los documentos. Describen los aspectos más relevantes de la situación estudiada y, a través de ellos, proponen modificaciones o adiciones.
@@ -796,7 +792,7 @@
           .tarjeta-numerada__numero
             .h2 1
           h4.text-center.text-small Organización
-          p.text-center.text-small es la etapa previa a la ejecución del trabajo de investigación. En ella se define el propósito del estudio, las herramientas a utilizar, las personas que llevarán a cabo cada una de las tareas programadas. A mayor detalle en la planeación de las actividades, más fidedigna será la replicación del estudio para medir su precisión.
+          p.text-center.text-small Es la etapa previa a la ejecución del trabajo de investigación. En ella se define el propósito del estudio, las herramientas a utilizar, las personas que llevarán a cabo cada una de las tareas programadas. A mayor detalle en la planeación de las actividades, más fidedigna será la replicación del estudio para medir su precisión.
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5(style="height:100%")
@@ -811,7 +807,7 @@
           .tarjeta-numerada__numero
             .h2 3
           h4.text-center.text-small Tratamiento estadístico de la información
-          p.text-center.text-small una vez se hace el registro de la información y el análisis del contenido fuente está completado, se deben poner a prueba las afirmaciones surgidas de este trabajo. Las validaciones deben cumplir con una serie de criterios expuestos y coherentes con los estudios iniciales, especificando escalas y criterios de medición.
+          p.text-center.text-small Una vez se hace el registro de la información y el análisis del contenido fuente está completado, se deben poner a prueba las afirmaciones surgidas de este trabajo. Las validaciones deben cumplir con una serie de criterios expuestos y coherentes con los estudios iniciales, especificando escalas y criterios de medición.
 
 
 </template>
