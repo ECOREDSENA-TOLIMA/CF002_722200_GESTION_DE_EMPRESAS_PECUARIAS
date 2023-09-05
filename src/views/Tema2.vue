@@ -240,7 +240,6 @@
       .col-10
         .tabla-a.color-acento-botones.mb-5 
           table(data-aos="flip-up")
-            caption Nota. Elaboración propia.
             thead
               tr
                 th Color
