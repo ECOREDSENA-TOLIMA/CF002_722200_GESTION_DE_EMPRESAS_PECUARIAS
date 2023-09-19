@@ -2,9 +2,15 @@ export default {
   global: {
     componenteFormativo: 'Recolección y análisis de datos',
     descripcionCurso:
-      'El tratamiento de la información constituye una actividad clave e indispensable en la administración de cualquier unidad productiva, gracias a ello, es posible aprender de hechos pasados y anticiparse a situaciones problemáticas. Hacer uso de las metodologías y herramientas disponibles en la actualidad agilizará la gestión administrativa y otorgará más garantías en el manejo de los datos.',
+      'El tratamiento de la información constituye una actividad clave e indispensable en la administración de cualquier unidad productiva, gracias a ello, es posible aprender de hechos pasados y anticiparse a situaciones problemáticas. <br><br>Hacer uso de las metodologías y herramientas disponibles en la actualidad agilizará la gestión administrativa y otorgará más garantías en el manejo de los datos.</br></br>',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

@@ -151,7 +151,7 @@
       span #[em Modalidades de observación]
     
     .row.mt-5
-      ImagenInfografica.color-primario.mb-5
+      ImagenInfografica.color-primario.mb-5.desktop
         template(v-slot:imagen)
           figure(data-aos="flip-up")
             img(src='@/assets/curso/temas/tema2/15.svg', alt='Texto que describa la imagen')
@@ -193,6 +193,11 @@
           .h5.mb-2 Experimental
           p Suelen ser llevados a cabo en ambientes controlados y manipulados por el equipo investigador. Aquí se busca provocar situaciones específicas, que se aproximen a los fenómenos que se quiere estudiar, velando por no modificar su estructura natural.
 
+    .row.mt-5.justify-content-center.align-items-center
+      .col-lg-10
+        figure.movil
+          img(src='@/assets/curso/temas/tema2/48.svg', alt='Texto que describa la imagen')
+
     h3.titulo-tercero 2.2.3	#[em Instrumentos para la recolección de información]
 
     p.mb-5(data-aos="fade-left") La observación puede considerarse una de las metodologías de recolección de datos más sencillas y de fácil aplicación, sin embargo, como cualquier otra, requiere de herramientas que permitan llevar un seguimiento de los avances conseguidos. Con esto, no solo se busca recolectar más información, sino contar con un registro organizado y controlado de todos los aspectos relevantes, que facilite el análisis y la interpretación. Los siguientes son algunos de los medios más utilizados:
@@ -202,32 +207,37 @@
       span #[em Instrumentos para la recolección de información en la observación]
 
     .row.mt-5.justify-content-center.align-items-center
-      .col-lg-8
-        ImagenInfografica.color-primario.mb-5
+      .col-lg-12
+        ImagenInfografica.color-secundario.mb-5.desktop
           template(v-slot:imagen)
             figure(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema2/16.svg', alt='Texto que describa la imagen')
           
-          .tarjeta.color-acento-contenido.p-3(x="50.1%" y="3.9%" numero="")
+          .tarjeta.color-acento-contenido.p-3(x="50%" y="4.3%" numero="")
             .h5.mb-2 El diario
             p En él se registran todos los hechos desde el inicio del trabajo de observación. Es una herramienta flexible, por lo que pueden anotarse todo tipo de sugerencias, ideas o comentarios, ya sean de naturaleza práctica o teórica. El nivel de detalle dependerá del juicio del observador, por lo que puede ser utilizado una vez se desarrolle una actividad determinada, una situación relevante o al final de la jornada.
             p Su extensión dependerá de la complejidad del fenómeno estudiado y el nivel de detalle que busque el observador; se recomienda el uso de una escritura precisa, ordenada y clara para ser consultada por los colaboradores.
-          .tarjeta.color-acento-contenido.p-3(x="91.9%" y="42.8%" numero="")
+          .tarjeta.color-acento-contenido.p-3(x="75.9%" y="42.8%" numero="")
             .h5.mb-2 Cuaderno de notas
             p Opera de forma semejante al diario, pero con la particularidad de ser portado por el investigador en todo momento. Lo anterior permite registrar los hechos de forma inmediata después de su ocurrencia, lo que dota de precisión su registro, pero, como contrapartida, su estructura será menos ordenada.
             p Puede funcionar en manera conjunta con el diario, haciendo uso del cuaderno de notas para registrar rápidamente cada situación que lo amerite, y del diario, al finalizar la jornada de trabajo, donde se registren los eventos con mayor calma y con una estructura mucho más robusta.
-          .tarjeta.color-acento-contenido.p-3(x="65.5%" y="95.3%" numero="")
+          .tarjeta.color-acento-contenido.p-3(x="59.5%" y="94.7%" numero="")
             .h5.mb-2 Mapas
             p Son una herramienta que aporta un contexto a la investigación, dotándola de una dimensión física determinada. En esta categoría, se encuentran también los planos y cualquier otro tipo de representación gráfica que otorgue una noción respecto a ubicación o límites de la zona estudiada.
             p Pueden ser tan detallados como el investigador considere; es recomendable que incluyan datos relevantes para el fenómeno. Por ejemplo, los estudios de mercado suelen estar delimitados a zonas geográficas específicas, por lo que un mapa de la ciudad, donde se resalte la localidad donde se realiza la investigación, puede también presentar otros datos, como género, edad o estrato económico, que pueden aportar para relacionar las variables a la hora de interpretar los resultados.
-          .tarjeta.color-acento-contenido.p-3(x="33.8%" y="95.3%" numero="")
+          .tarjeta.color-acento-contenido.p-3(x="40%" y="94.6%" numero="")
             .h5.mb-2 Dispositivos mecánicos
             p En la actualidad, existen diversos mecanismos que pueden facilitar el proceso de registro en una investigación. Dispositivos como las cámaras fotográficas o las grabadoras de voz pueden recopilar información objetiva y ser reproducida de manera asíncrona para elevar el nivel de detalle.
             p Se recomienda especial cuidado a la hora de compartir  la información registrada por estos medios, puesto que la privacidad de los participantes puede ser vulnerada, más aún si no se cuenta con un consentimiento previo al estudio.
-          .tarjeta.color-acento-contenido.p-3(x="8.2%" y="42.8%" numero="")
+          .tarjeta.color-acento-contenido.p-3(x="24.2%" y="42.8%" numero="")
             .h5.mb-2 Cuadros de trabajo
             p Suele ser una herramienta de uso posterior a las anteriores. Con ella, se busca la tabulación y ordenamiento de la información recopilada, a través del uso de tablas en las que las filas listen los participantes y las columnas las variables, o viceversa. Existe un sinnúmero de posibilidades a la hora de diseñar cuadros de trabajo, su flexibilidad depende enteramente de los recursos del investigador y su creatividad.
             p Se recomienda su uso para investigaciones con un alto componente cuantitativo, o con muchos sujetos a estudiar, puesto que la información puede consolidarse y presentarse de forma resumida, sin obviar detalles de relevancia.
+
+    .row.mt-5.justify-content-center.align-items-center
+      .col-lg-10
+        figure.movil
+          img(src='@/assets/curso/temas/tema2/49.svg', alt='Texto que describa la imagen')
 
     p.mt-5.mb-5(data-aos="fade-left") El siguiente ejemplo presenta una lista de vehículos que un concesionario ofrece y con la que se busca determinar cuáles son las preferencias del público objetivo. Así, se listan los colores de los modelos que ingresaron a revisión periódica en una semana:
 
@@ -238,9 +248,9 @@
     
     .row.justify-content-center.align-items-center
       .col-10
-        .tabla-a.color-acento-botones.mb-5 
+        .tabla-a.color.mb-5 
           table(data-aos="flip-up")
-            thead
+            thead.text-white(style="background-color:#12263F")
               tr
                 th Color
                 th Modelo 1
@@ -329,20 +339,20 @@
         figure.movil(data-aos="flip-up")
           img(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen')          
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-8 
-        .tarjeta.tarjeta.p-4.mb-3(style="background-color:#632059")(data-aos="flip-up")
-          p.text-white.text-small #[b Estructuradas:] previo al acercamiento con el entrevistado, el investigador diseña un listado de preguntas establecido e inmodificable. Ofrecen especial utilidad para pruebas con un gran número de sujetos, dado que facilitan la comparación de respuestas y limitan las posibilidades de que los encuestados divaguen o pierdan el hilo conductor.
-        .tarjeta.tarjeta.p-4.mb-3(style="background-color:#632059")(data-aos="flip-up")
-          p.text-white.text-small #[b Semiestructuradas:] enlistan una serie de tópicos que cumplen el papel de guía, las preguntas son abiertas y se diseñan para ofrecer un punto de referencia. Las temáticas son claras, pero el encuestador tendrá libertad de modificar el libreto según la situación lo requiera. Esta flexibilidad permite encaminar la entrevista a aquellos aspectos que se consideren más relevantes, adicionando preguntas o cambiando su orden para maximizar la obtención de información.
-        .tarjeta.tarjeta.p-4.mb-3(style="background-color:#632059")(data-aos="flip-up")
-          p.text-white.text-small #[b No estructuradas:] este tipo de entrevistas no poseen ningún libreto ni guía inicial, de esta forma, se le cede toda la responsabilidad al entrevistador para indagar y obtener información. De esta categoría se desprenden dos tipos:
-      .col-lg-4
+        .cajon.cajon.p-4.mb-1(style="background-color:#DBF9BD")(data-aos="flip-up")
+          p.text-small #[b Estructuradas:] previo al acercamiento con el entrevistado, el investigador diseña un listado de preguntas establecido e inmodificable. Ofrecen especial utilidad para pruebas con un gran número de sujetos, dado que facilitan la comparación de respuestas y limitan las posibilidades de que los encuestados divaguen o pierdan el hilo conductor.
+        .cajon.cajon.p-4.mb-1(style="background-color:#DBF9BD")(data-aos="flip-up")
+          p.text-small #[b Semiestructuradas:] enlistan una serie de tópicos que cumplen el papel de guía, las preguntas son abiertas y se diseñan para ofrecer un punto de referencia. Las temáticas son claras, pero el encuestador tendrá libertad de modificar el libreto según la situación lo requiera. Esta flexibilidad permite encaminar la entrevista a aquellos aspectos que se consideren más relevantes, adicionando preguntas o cambiando su orden para maximizar la obtención de información.
+        .cajon.cajon.p-4.mb-1(style="background-color:#DBF9BD")(data-aos="flip-up")
+          p.text-small #[b No estructuradas:] este tipo de entrevistas no poseen ningún libreto ni guía inicial, de esta forma, se le cede toda la responsabilidad al entrevistador para indagar y obtener información. De esta categoría se desprenden dos tipos:
+      .col-lg-3
         figure(data-aos="flip-up")
           img(src='@/assets/curso/temas/tema2/22.svg', alt='Texto que describa la imagen')
 
     .row.justify-content-center.align-items-center
-      .col-lg-5
+      .col-lg-4
         figure(data-aos="flip-up")
           img(src='@/assets/curso/temas/tema2/23.svg', alt='Texto que describa la imagen')
       .col-lg-7 
@@ -353,36 +363,66 @@
 
     h3.mt-5.titulo-tercero 2.3.2	#[em Posibilidades y limitaciones]
 
-    .row.justify-content-center.align-items-center
-      .col-10.mt-3
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").text-center.mb-3 Posibilidades
-              .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
-            .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p.text-small(data-aos="fade-left") Con este sistema, se puede profundizar ampliamente en cualquiera de los temas abordados, esto surge de la naturaleza de la información que se espera recolectar. Si las preguntas son abiertas, la gama de respuestas puede ser tan amplia como la diversidad misma de los entrevistados, incluso, el lenguaje no verbal o la emotividad tras una respuesta puede brindar más elementos de juicio a la hora de registrar la información.
-                p.text-small(data-aos="fade-left") Gracias a la dinámica que surge entre el entrevistador y el entrevistado, es posible efectuar cambios durante la marcha, de tal forma que la conversación se torne más cómoda para ambas partes. Esta flexibilidad permite ahondar en los aspectos más relevantes de la investigación y puede aportar una confianza mayor, que lleve a respuestas profundas y sinceras.
-                p.text-small(data-aos="fade-left") Debido a que las preguntas suelen ser abiertas, es posible obtener información más allá de lo esperado. Esto permite reinterpretar la investigación en caso de ser necesario un replanteamiento según la evidencia indique.
-                p.text-small(data-aos="fade-left") El entendimiento de la información obtenida se facilita gracias a la interacción con el investigador, quien puede preguntar o solicitar aclaraciones adicionales cuando lo considere necesario, evitando confusiones o malas interpretaciones.
 
     .row.justify-content-center.align-items-center
-      .col-10.mt-5
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").text-center.mb-3 Limitaciones
-              .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
-                .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
-            .col-lg-8
+      .col-10.mt-3
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              h2(data-aos="fade-left").mb-3 Posibilidades
+              figure
+                img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
+            .col-lg-9.p-4
               .bloque-texto-a__texto.p-4
-                p.text-small(data-aos="fade-left") El formato de la entrevista se encuentra limitado por el factor tiempo. A más información que se quiera obtener de cada sujeto, más tiempo será demandado. La presencia permanente del investigador es obligatoria durante toda la entrevista si se busca un ambiente de cercanía. Dado que las personas suelen responder preguntas abiertas, tampoco se puede esperar que se respondan varios cuestionamientos al mismo tiempo.
-                p.text-small(data-aos="fade-left") El margen de error es más amplio que con otras metodologías, puesto que las preguntas abiertas y espontáneas se pueden prestar para diversas interpretaciones. Esta situación es aún más compleja si el juicio del investigador se ve afectado por su exceso o falta de empatía con el entrevistado, lo que puede generar sesgos en la información.
-                p.text-small(data-aos="fade-left") La práctica ha demostrado que, usualmente, hay una gran brecha entre lo que un entrevistado hace y lo que dice que haría. Usualmente, los hechos son recordados con leves variaciones inconscientes; de la misma forma, preocupado por su imagen, puede responder que tomaría una posición o ejecutaría una acción de modo hipotético, mientras que en la realidad nunca lo haría. Es por ello que la calidad de las conclusiones alcanzadas está estrechamente relacionada con la honestidad que tengan los entrevistados, situación difícilmente medible con esta metodología.
+                p.text-small Con este sistema, se puede profundizar ampliamente en cualquiera de los temas abordados, esto surge de la naturaleza de la información que se espera recolectar. Si las preguntas son abiertas, la gama de respuestas puede ser tan amplia como la diversidad misma de los entrevistados, incluso, el lenguaje no verbal o la emotividad tras una respuesta puede brindar más elementos de juicio a la hora de registrar la información.
+                p.text-small Gracias a la dinámica que surge entre el entrevistador y el entrevistado, es posible efectuar cambios durante la marcha, de tal forma que la conversación se torne más cómoda para ambas partes. Esta flexibilidad permite ahondar en los aspectos más relevantes de la investigación y puede aportar una confianza mayor, que lleve a respuestas profundas y sinceras.
+                p.text-small Debido a que las preguntas suelen ser abiertas, es posible obtener información más allá de lo esperado. Esto permite reinterpretar la investigación en caso de ser necesario un replanteamiento según la evidencia indique.
+                p.text-small El entendimiento de la información obtenida se facilita gracias a la interacción con el investigador, quien puede preguntar o solicitar aclaraciones adicionales cuando lo considere necesario, evitando confusiones o malas interpretaciones.
+
+    .row.justify-content-center.align-items-center
+      .col-10.mt-3
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              h2(data-aos="fade-left").mb-3 Limitaciones
+              figure
+                img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
+            .col-lg-9.p-4
+              .bloque-texto-a__texto.p-4
+                p.text-small El formato de la entrevista se encuentra limitado por el factor tiempo. A más información que se quiera obtener de cada sujeto, más tiempo será demandado. La presencia permanente del investigador es obligatoria durante toda la entrevista si se busca un ambiente de cercanía. Dado que las personas suelen responder preguntas abiertas, tampoco se puede esperar que se respondan varios cuestionamientos al mismo tiempo.
+                p.text-small El margen de error es más amplio que con otras metodologías, puesto que las preguntas abiertas y espontáneas se pueden prestar para diversas interpretaciones. Esta situación es aún más compleja si el juicio del investigador se ve afectado por su exceso o falta de empatía con el entrevistado, lo que puede generar sesgos en la información.
+                p.text-small La práctica ha demostrado que, usualmente, hay una gran brecha entre lo que un entrevistado hace y lo que dice que haría. Usualmente, los hechos son recordados con leves variaciones inconscientes; de la misma forma, preocupado por su imagen, puede responder que tomaría una posición o ejecutaría una acción de modo hipotético, mientras que en la realidad nunca lo haría. Es por ello que la calidad de las conclusiones alcanzadas está estrechamente relacionada con la honestidad que tengan los entrevistados, situación difícilmente medible con esta metodología.
+
+    //- .row.justify-content-center.align-items-center
+    //-   .col-12.mt-3
+    //-     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
+    //-       .row.m-0.align-items-center.justify-content-between
+    //-         .col-lg-5.mb-4.mb-lg-0
+    //-           h2(data-aos="fade-left").text-center.mb-3 Posibilidades
+    //-           .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
+    //-             .tarjeta-avatar-b__img
+    //-               img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
+    //-         .col-lg-7
+    //-           .bloque-texto-a__texto.p-4
+    //-             p.text-small(data-aos="fade-left") Con este sistema, se puede profundizar ampliamente en cualquiera de los temas abordados, esto surge de la naturaleza de la información que se espera recolectar. Si las preguntas son abiertas, la gama de respuestas puede ser tan amplia como la diversidad misma de los entrevistados, incluso, el lenguaje no verbal o la emotividad tras una respuesta puede brindar más elementos de juicio a la hora de registrar la información.
+    //-             p.text-small(data-aos="fade-left") Gracias a la dinámica que surge entre el entrevistador y el entrevistado, es posible efectuar cambios durante la marcha, de tal forma que la conversación se torne más cómoda para ambas partes. Esta flexibilidad permite ahondar en los aspectos más relevantes de la investigación y puede aportar una confianza mayor, que lleve a respuestas profundas y sinceras.
+    //-             p.text-small(data-aos="fade-left") Debido a que las preguntas suelen ser abiertas, es posible obtener información más allá de lo esperado. Esto permite reinterpretar la investigación en caso de ser necesario un replanteamiento según la evidencia indique.
+    //-             p.text-small(data-aos="fade-left") El entendimiento de la información obtenida se facilita gracias a la interacción con el investigador, quien puede preguntar o solicitar aclaraciones adicionales cuando lo considere necesario, evitando confusiones o malas interpretaciones.
+
+    //- .row.justify-content-center.align-items-center
+    //-   .col-12.mt-5
+    //-     .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
+    //-       .row.m-0.align-items-center.justify-content-between
+    //-         .col-lg-5.mb-4.mb-lg-0
+    //-           h2(data-aos="fade-left").text-center.mb-3 Limitaciones
+    //-           .tarjeta-avatar-b.mb-5.justify-content-center.align-items-center
+    //-             .tarjeta-avatar-b__img
+    //-               img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
+    //-         .col-lg-7
+    //-           .bloque-texto-a__texto.p-4
+    //-             p.text-small(data-aos="fade-left") El formato de la entrevista se encuentra limitado por el factor tiempo. A más información que se quiera obtener de cada sujeto, más tiempo será demandado. La presencia permanente del investigador es obligatoria durante toda la entrevista si se busca un ambiente de cercanía. Dado que las personas suelen responder preguntas abiertas, tampoco se puede esperar que se respondan varios cuestionamientos al mismo tiempo.
+    //-             p.text-small(data-aos="fade-left") El margen de error es más amplio que con otras metodologías, puesto que las preguntas abiertas y espontáneas se pueden prestar para diversas interpretaciones. Esta situación es aún más compleja si el juicio del investigador se ve afectado por su exceso o falta de empatía con el entrevistado, lo que puede generar sesgos en la información.
+    //-             p.text-small(data-aos="fade-left") La práctica ha demostrado que, usualmente, hay una gran brecha entre lo que un entrevistado hace y lo que dice que haría. Usualmente, los hechos son recordados con leves variaciones inconscientes; de la misma forma, preocupado por su imagen, puede responder que tomaría una posición o ejecutaría una acción de modo hipotético, mientras que en la realidad nunca lo haría. Es por ello que la calidad de las conclusiones alcanzadas está estrechamente relacionada con la honestidad que tengan los entrevistados, situación difícilmente medible con esta metodología.
 
     h3.titulo-tercero 2.3.3	#[em Pasos para su aplicación.]  
 
@@ -473,7 +513,7 @@
 
     .row.justify-content-center.align-items-center
       .col-10.mt-3
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
           .row.m-0.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               h2(data-aos="fade-left").mb-3 Posibilidades
@@ -481,7 +521,7 @@
                 img(src='@/assets/curso/temas/tema2/24.svg' alt='AvatarTop')
             .col-lg-8.p-4
               .bloque-texto-a__texto.p-4
-                ul.lista-ul.mb-3
+                ul.lista-ul.mb-3.text-small
                   li 
                     i.lista-ul__vineta
                     | Su aplicación resulta más económica que la entrevista y la información recolectada puede abordar una gran variedad de temas.
@@ -497,7 +537,7 @@
 
     .row.justify-content-center.align-items-center
       .col-10.mt-3
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="flip-up") 
           .row.m-0.align-items-center.justify-content-center
             .col-lg-3.mb-4.mb-lg-0
               h2(data-aos="fade-left").mb-3 Limitaciones
@@ -505,7 +545,7 @@
                 img(src='@/assets/curso/temas/tema2/25.svg' alt='AvatarTop')
             .col-lg-8.p-4
               .bloque-texto-a__texto.p-4
-                ul.lista-ul.mb-3
+                ul.lista-ul.mb-3.text-small
                   li 
                     i.lista-ul__vineta
                     | La información proviene de una fuente indirecta, ya que la realidad se percibe a través del juicio de terceros.
@@ -578,7 +618,7 @@
     p.mb-5(data-aos="fade-left") Las preguntas a consignar en un cuestionario pueden ser de dos clases, a continuación, se presenta cada una de ellas:
 
     TabsA.color-acento-botones.mb-5(data-aos="flip-up")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Abiertas")
+      .tarjeta.color-primario--borde.p-4(titulo="Abiertas")
         .row.justify-content-center.align-items-center
           .col-lg-2.mb-4
             figure
@@ -586,7 +626,7 @@
           .col-xl-8.offset-1
             p.text-small La respuesta dada por el encuestado será tan extensa como él considere; la podrá abordar de forma espontánea, haciendo uso de la terminología que conozca y con la que se sienta cómodo. La mayor ventaja de este tipo de preguntas es que se puede obtener información más profunda y detallada, sin embargo, la consolidación de los datos resulta mucho más compleja, al no poder estandarizar la respuesta dentro de un grupo de posibilidades. 
       
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Cerradas")
+      .tarjeta.color-primario--borde.p-4(titulo="Cerradas")
         .row.justify-content-center.align-items-center
           .col-lg-2.mb-4
             figure
@@ -740,52 +780,16 @@
           .h5.mb-2 Cualitativos
           p Predomina el factor descriptivo, tanto en la información fuente como en la generada a través del análisis. Su estudio se centra en posturas, conductas o cualquier otra característica no medible, donde se busca constatar su consistencia. 
 
-    .row.mt-5
-      ImagenInfografica.color-primario.mb-5.movil
-        template(v-slot:imagen)
-          figure(data-aos="flip-up")
-            img(src='@/assets/curso/temas/tema2/47.svg', alt='Texto que describa la imagen')
-            figcaption Nota. Elaboración a partir de Emanuelli et al. (2012).
-        
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="77%" numero="")
-          .h5.mb-2 Exploratorio
-          p Suelen hacerse uso de estos cuando se busca probar un material de estudio por primera vez. Especialmente útiles en proyectos de formación, donde pueden aportar información relevante respecto a indicadores de medida o delimitaciones de la muestra.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="83.5%" numero="")
-          .h5.mb-2 Descriptivo
-          p Presentan un detalle de la realidad empírica de los documentos. Describen los aspectos más relevantes de la situación estudiada y, a través de ellos, proponen modificaciones o adiciones.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="90%" numero="")
-          .h5.mb-2 Verificativo
-          p Ponen a prueba los trabajos de investigación de otros autores, comparándolos entre sí. Para lograrlo, cuestionan desde la fuente de la información hasta las conclusiones alcanzadas, corroborando cada una de las afirmaciones relevantes.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="55.5%" numero="")
-          .h5.mb-2 Primarios
-          p El contenido estudiado es el original, es decir, fue creado de manera directa por el autor, haciendo uso de otras metodologías como la observación.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="62.2%" numero="")
-          .h5.mb-2 Secundarios
-          p La fuente de información utilizada en este tipo de análisis de contenido proviene de fuentes secundarias, lo que implica que se compone de resúmenes, traducciones o transcripciones derivadas de un contenido primario.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="20.1%" numero="")
-          .h5.mb-2 Horizontales
-          p El contenido a estudiar proviene de múltiples autores y obras. Se suele aplicar este tipo de análisis cuando se busca cuestionar estudios que afectan grandes poblaciones, como ideologías o movimientos políticos de amplio espectro.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="26.9%" numero="")
-          .h5.mb-2 Verticales
-          p Son análisis intensivos, asociados a una materia o tópico específico y bien delimitado. Es común que los contenidos fuente toquen muchos más temas y el análisis se centre solo en ciertas secciones. 
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="33.5%" numero="")
-          .h5.mb-2 Transversales
-          p Para este tipo de análisis se suelen confrontar posturas distintas relacionadas con un mismo tema. La intención detrás es identificar las causas de las diferencias entre ellas, si se deben a posturas de los investigadores originales o a causas específicas que trascienden sus alcances.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="40.1%" numero="")
-          .h5.mb-2 Longitudinales
-          p Las fuentes de información provienen de diferentes momentos en el tiempo. Se espera evidenciar la evolución respecto a una temática específica. Claros ejemplos de ellos son las publicaciones periódicas de algún medio.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="2.8%" numero="")
-          .h5.mb-2 Cuantitativos
-          p Los datos a estudiar pueden medirse aplicando escalas de cantidades. Es posible la tabulación de las posturas y el cálculo de medidas estadísticas que complementen la información recolectada.
-        .tarjeta.color-acento-botones.p-3(x="77.4%" y="9.9%" numero="")
-          .h5.mb-2 Cualitativos
-          p Predomina el factor descriptivo, tanto en la información fuente como en la generada a través del análisis. Su estudio se centra en posturas, conductas o cualquier otra característica no medible, donde se busca constatar su consistencia. 
+    .row.mt-5.movil
+      figure(data-aos="flip-up")
+        img(src='@/assets/curso/temas/tema2/47.svg', alt='Texto que describa la imagen')
+        figcaption Nota. Elaboración a partir de Emanuelli et al. (2012).
 
     h3.titulo-tercero 2.5.4	#[em Etapas] 
 
     p.mb-5(data-aos="fade-left") La aplicación de la metodología de análisis de contenidos puede dividirse en tres fases fundamentales:
 
-    .row.mb-5(data-aos="flip-up")
+    .row.mb-5
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-5(style="height:100%")
           .tarjeta-numerada__numero

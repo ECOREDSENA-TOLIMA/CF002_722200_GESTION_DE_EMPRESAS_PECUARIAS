@@ -84,7 +84,7 @@
       span #[em Ciclo de vida de la información]
 
     .row.mt-5
-      ImagenInfografica.color-primario.mb-5
+      ImagenInfografica.color-primario.mb-5.desktop
         template(v-slot:imagen)
           figure(data-aos="flip-up")
             img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen')
@@ -122,6 +122,10 @@
           .h5.mb-2 Análisis y explotación de datos
           p La interpretación de la información se erige como la última fase de su ciclo de vida, y es en este proceso donde se genera nuevo conocimiento a partir de los datos recolectados. 
           p El análisis busca llegar a conclusiones o juicios de valor fundamentados, por lo que la toma de decisiones debe darse una vez se aborda este apartado.
+
+    .row.mt-5
+      figure.movil
+        img(src='@/assets/curso/temas/tema1/16.svg', alt='Texto que describa la imagen')
           
     separador 
     .titulo-segundo.color-secundario
@@ -132,12 +136,12 @@
         .row.justify-content-center.align-items-center 
           .col-md-4.p-4
             figure(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema1/9.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/9.png', alt='Texto que describa la imagen')
           .col-md-6.p-4
             p(data-aos="fade-left") La información debe presentarse de tal manera que sea entendible para su público objetivo; así, cuando es de interés general, el lenguaje debe usar terminología común para cualquier individuo, sin importar su profesión u oficio. Por otro lado, cuando se busca abordar temáticas técnicas propias de una disciplina muy concreta, es viable el uso de un lenguaje más preciso y de alto contenido técnico.
             p(data-aos="fade-left") El ser humano ha ampliado su intelecto en todas las direcciones, desde las ciencias de la salud, hasta las económicas, desde el aspecto deportivo, hasta el musical; y este crecimiento exponencial y multidireccional lo ha llevado a utilizar jergas muy específicas para cada campo del conocimiento. El lenguaje técnico se caracteriza por ser accesible únicamente para los estudiados en cierta materia, pero su uso es cada vez más popular, debido a la constante profundización en las temáticas objeto de estudio.
 
-    p(data-aos="fade-left") Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la utilización de lenguajes técnicos para todas las disciplinas abordadas. Castillo (2018) sugiere las siguientes características para este lenguaje:            
+    p.mb-5(data-aos="fade-left") Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la utilización de lenguajes técnicos para todas las disciplinas abordadas. Castillo (2018) sugiere las siguientes características para este lenguaje:            
 
     .titulo-sexto.color-acento-contenido.offset-2
       h5 Figura 2
@@ -145,45 +149,60 @@
 
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-8
-        ImagenInfografica.color-primario.mb-5
+        ImagenInfografica.color-secundario.mb-5.desktop
           template(v-slot:imagen)
             figure(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
           
-          .tarjeta.color-acento-botones.p-3(x="2.6%" y="24.2%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="8.2%" y="27.9%" numero="")
             p Conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural
-          .tarjeta.color-acento-botones.p-3(x="2.6%" y="75.6%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="8.2%" y="72.4%" numero="")
             p Se considera coherente debido a su enfoque en un tema particular, mientras que su cohesión proviene del interés en generar afirmaciones a partir de diversos juicios e ideas que convergen en algo más concreto. Por último, se habla de adecuación debido a la forma en la que se perfila para ser dirigido a un público específico.
-          .tarjeta.color-acento-botones.p-3(x="97.5%" y="24.2%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="91.9%" y="27.8%" numero="")
             p Debido a que la terminología solo puede ser plenamente entendida por los expertos en la materia estudiada, su uso se encuentra limitado a públicos específicos: un gremio, una profesión o incluso una temática particular.
-          .tarjeta.color-acento-botones.p-3(x="97.5%" y="75.6%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="91.9%" y="72.4%" numero="")
             p El lenguaje técnico es tan cerrado a un tema particular que es muy poco probable encontrar más de un significado para sus términos. Esto quiere decir que no es para nada habitual evidenciar términos equivalentes, por lo que cada palabra siempre suele significar lo mismo.
+
+    .row.mt-5
+      figure.movil
+        img(src='@/assets/curso/temas/tema1/17.svg', alt='Texto que describa la imagen')
     
     separador 
     .titulo-segundo.color-secundario
       h2#t_1_4 1.4  Confidencialidad
 
     .row.row.justify-content-center.align-items-center
-      .col-10.mb-5
+      .col-12.mb-5
         .row.justify-content-center.align-items-center
-          .col-lg-5
+          .col-lg-4
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/11.svg', alt='Texto que describa la imagen')
-          .col-lg-5
+          .col-lg-7
             p(data-aos="fade-left") La información es un bien preciado para cualquier individuo, natural o jurídico, puesto que a través de ello se puede acceder a eventos pasados para prever situaciones futuras. Este material histórico puede ser considerado sensible según las particularidades del mismo; por ejemplo, la dirección de residencia de una persona, su teléfono personal o los datos de sus cuentas bancarias son datos que no pueden ser publicados a un amplio grupo de terceros, debido a las consecuencias que ello puede traer.
-
-    p.mb-5(data-aos="fade-left") La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:
+            p(data-aos="fade-left") La Constitución Política de 1991 ya consideró este tipo de eventos, por lo que en su Artículo 15 reguló el derecho a la intimidad de las personas, así:
 
     .row.justify-content-center.align-items-center
       .col-10.mb-3
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").mb-0 Artìculo 15. 
-              h2(data-aos="fade-left") Constitución Política. 
-            .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p(data-aos="fade-left") Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/18.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 #[b Artìculo 15. Constitución Política.]
+              br
+              br
+              | Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
+    
+    //- .row.justify-content-center.align-items-center
+    //-   .col-10.mb-3
+    //-     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
+    //-       .row.m-0.align-items-center.justify-content-between
+    //-         .col-lg-4.mb-4.mb-lg-0
+    //-           h2(data-aos="fade-left").mb-0 Artìculo 15. 
+    //-           h2(data-aos="fade-left") Constitución Política. 
+    //-         .col-lg-8
+    //-           .bloque-texto-a__texto.p-4
+    //-             p(data-aos="fade-left") Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
             
     .row
       .tarjeta.tarjeta.p-4.mb-5(style="background-color:#FFFAD0")(data-aos="flip-up")
@@ -200,14 +219,27 @@
     p.mb-5(data-aos="fade-left") La reglamentación a este derecho constitucional se encuentra en la Ley estatutaria 1266 de 2008, donde se establece el tratamiento de la información contenida en las bases de datos. El Artículo 1 de la ley en mención limita su alcance, así: 
 
     .row.justify-content-center.align-items-center
-      .col-10
-        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              h2(data-aos="fade-left").text-center.mb-0 Artículo 1. 
-            .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p(data-aos="fade-left") Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
+      .col-10.mb-3
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/19.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 #[b Artìculo 1.]
+              br
+              br
+              | Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
+    
+    
+    //- .row.justify-content-center.align-items-center
+    //-   .col-10
+    //-     .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5(data-aos="flip-up") 
+    //-       .row.m-0.align-items-center.justify-content-between
+    //-         .col-lg-4.mb-4.mb-lg-0
+    //-           h2(data-aos="fade-left").text-center.mb-0 Artículo 1. 
+    //-         .col-lg-8
+    //-           .bloque-texto-a__texto.p-4
+    //-             p(data-aos="fade-left") Objeto. La presente ley tiene por objeto desarrollar el derecho constitucional que tienen todas las personas a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos, y los demás derechos, libertades y garantías constitucionales relacionadas con la recolección, tratamiento y circulación de datos personales a que se refiere el Artículo 15 de la Constitución Política, así como el derecho a la información establecido en el Artículo 20 de la Constitución Política, particularmente en relación con la información financiera y crediticia, comercial, de servicios y la proveniente de terceros países.
 
     .row.row.justify-content-center.align-items-center
       .col-12.mb-5.mt-5
@@ -222,8 +254,8 @@
     p.mb-4(data-aos="fade-left") Si el aprendiz desea profundizar en estas políticas, se recomienda la lectura de la normativa relacionada previamente, a través de las siguientes fuentes:
 
     .row.justify-content-center.align-items-center
-      .col-4
-        .tarjeta.color-acento-contenido.p-3.mb-5
+      .col-3
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -234,8 +266,8 @@
                     span.text-small(data-aos="fade-left") Link 
                     i.fas.fa-link
 
-      .col-4
-        .tarjeta.color-acento-contenido.p-3.mb-5
+      .col-3
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -246,8 +278,8 @@
                     span.text-small(data-aos="fade-left") Link 
                     i.fas.fa-link
 
-      .col-4
-        .tarjeta.color-acento-contenido.p-3.mb-5
+      .col-3
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -270,26 +302,26 @@
 
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-10
-        ImagenInfografica.color-primario.mb-5.desktop
+        ImagenInfografica.color-secundario.mb-5.desktop
           template(v-slot:imagen)
             figure(data-aos="flip-up")
               img(src='@/assets/curso/temas/tema1/14.svg', alt='Texto que describa la imagen')
           
-          .tarjeta.color-acento-botones.p-3(x="6.5%" y="46.1%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="6.5%" y="44.8%" numero="")
             p Provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
-          .tarjeta.color-acento-botones.p-3(x="93.6%" y="46.1%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="93.6%" y="44.8%" numero="")
             p Surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes.
 
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-10
-        ImagenInfografica.color-primario.mb-5.movil
+        ImagenInfografica.color-secundario.mb-5.movil
           template(v-slot:imagen)
-            figure(data-aos="flip-up")
+            figure
               img(src='@/assets/curso/temas/tema1/15.svg', alt='Texto que describa la imagen')
           
-          .tarjeta.color-acento-botones.p-3(x="18%" y="44.1%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="2%" y="37.1%" numero="")
             p Provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
-          .tarjeta.color-acento-botones.p-3(x="82.6%" y="44.1%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="97.8%" y="37.1%" numero="")
             p Surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes.
           
 

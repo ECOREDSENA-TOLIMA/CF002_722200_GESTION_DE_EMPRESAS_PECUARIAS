@@ -179,65 +179,119 @@
 
     p.mb-5(data-aos="fade-left") Los aplicativos informáticos mencionados suelen requerir de autorizaciones por parte del equipo de desarrollo y titular de la propiedad intelectual. Las modalidades disponibles van desde las opciones gratuitas hasta la suscripción de pago por tiempo limitado. Las siguientes son algunas de las alternativas que gozan de mayor popularidad en la actualidad:
 
-    .row.mb-5(data-aos="flip-up")
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/18.svg', alt='Texto que describa la imagen')
-          h3.text-center #[i Software] libre 
-          p.text-small Los programas pueden ser usados para cualquier propósito, el acceso al mismo es tan amplio que se pueden hacer todas las modificaciones que el usuario necesite para adaptarlo a sus necesidades. 
-          p.text-small Esto implica que su distribución al público no cuenta con limitaciones, por lo que su desarrollo suele provenir de trabajos colaborativos, donde una comunidad interactúa para mejorar las funcionalidades a partir de un punto base entregado por los desarrolladores.
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/18.svg' alt='AvatarTop')
+        h2.text-center #[i Software] libre 
+        p.text-small Los programas pueden ser usados para cualquier propósito, el acceso al mismo es tan amplio que se pueden hacer todas las modificaciones que el usuario necesite para adaptarlo a sus necesidades. 
+        p.text-small Esto implica que su distribución al público no cuenta con limitaciones, por lo que su desarrollo suele provenir de trabajos colaborativos, donde una comunidad interactúa para mejorar las funcionalidades a partir de un punto base entregado por los desarrolladores.
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/19.svg', alt='Texto que describa la imagen')
-          h3.text-center #[i Software] semilibre
-          p.text-small En principio, cuenta con prácticamente las mismas libertades que ofrece el #[i software] libre, las limitaciones que lo diferencian del anterior se asocian a aspectos comerciales (puesta a la venta de versiones modificadas) o su vinculación con sistemas operativos libres.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/19.svg' alt='AvatarTop')
+        h2.text-center #[i Software] semilibre
+        p.text-small En principio, cuenta con prácticamente las mismas libertades que ofrece el #[i software] libre, las limitaciones que lo diferencian del anterior se asocian a aspectos comerciales (puesta a la venta de versiones modificadas) o su vinculación con sistemas operativos libres.
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/20.svg', alt='Texto que describa la imagen')
-          h3.text-center #[i Software freeware]
-          p.text-small Los programas pertenecientes a esta categoría siguen siendo de uso gratuito, sin embargo, los usuarios tienen restringido su acceso al código fuente para modificarlo, dado que suele estar protegido con derechos de autor. El ejemplo más común de este tipo de #[i software] es la suite de #[i Google], que incluye aplicaciones como #[i Drive],#[i Gmail], calendario u hojas de cálculo. 
-          p.text-small En esta categoría, se pueden implantar ciertas limitaciones de funciones avanzadas o de almacenamiento, que pueden ser desbloqueadas con el pago de una membresía.  
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/20.svg' alt='AvatarTop')
+        h2.text-center #[i Software freeware]
+        p.text-small Los programas pertenecientes a esta categoría siguen siendo de uso gratuito, sin embargo, los usuarios tienen restringido su acceso al código fuente para modificarlo, dado que suele estar protegido con derechos de autor. El ejemplo más común de este tipo de #[i software] es la suite de #[i Google], que incluye aplicaciones como #[i Drive],#[i Gmail], calendario u hojas de cálculo. 
+        p.text-small En esta categoría, se pueden implantar ciertas limitaciones de funciones avanzadas o de almacenamiento, que pueden ser desbloqueadas con el pago de una membresía.  
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/21.svg', alt='Texto que describa la imagen')
-          h3.text-center #[i Software] propietario
-          p.text-small Son aplicativos con limitaciones tanto de uso como de distribución o modificación del código fuente. Estos #[i softwares] pueden otorgar ciertos permisos de acceso para modificaciones solo a ciertos usuarios, sin embargo, sin expresa autorización, no podrán ser utilizados por ninguna otra persona.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/21.svg' alt='AvatarTop')
+        h2.text-center #[i Software] propietario
+        p.text-small Son aplicativos con limitaciones tanto de uso como de distribución o modificación del código fuente. Estos #[i softwares] pueden otorgar ciertos permisos de acceso para modificaciones solo a ciertos usuarios, sin embargo, sin expresa autorización, no podrán ser utilizados por ninguna otra persona.
 
-    .row.mb-5.justify-content-center(data-aos="flip-up")
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/22.svg', alt='Texto que describa la imagen')
-          h3.text-center #[i Software] comercial
-          p.text-small Cuentan con toda clase de limitaciones de forma similar al software propietario, pero con la posibilidad de levantar las limitaciones de uso a cambio de un pago. En el campo de la ofimática, el ejemplo más popular es el de la suite de #[i Office], desarrollada por #[i Microsoft]. 
-          p.text-small Su acceso está restringido a quien compre la licencia vitalicia de uno de sus programas o pague de forma periódica su suscripción anual, llamada #[i Office] 365. 
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/22.svg' alt='AvatarTop')
+        h2.text-center #[i Software] comercial
+        p.text-small Cuentan con toda clase de limitaciones de forma similar al software propietario, pero con la posibilidad de levantar las limitaciones de uso a cambio de un pago. En el campo de la ofimática, el ejemplo más popular es el de la suite de #[i Office], desarrollada por #[i Microsoft]. 
+        p.text-small Su acceso está restringido a quien compre la licencia vitalicia de uno de sus programas o pague de forma periódica su suscripción anual, llamada #[i Office] 365. 
 
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.p-4(style="height:100%; background-color:#DBF9BD")
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/temas/tema3/23.svg', alt='Texto que describa la imagen')
-          h3.text-center Demo
-          p.text-small Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. 
-          p.text-small Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/curso/temas/tema3/23.svg' alt='AvatarTop')
+        h2.text-center Demo
+        p.text-small Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. 
+        p.text-small Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago.
+
+      
+
+
+        
+
+
+
+    //- .row.mb-5(data-aos="flip-up")
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/18.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center #[i Software] libre 
+    //-       p.text-small Los programas pueden ser usados para cualquier propósito, el acceso al mismo es tan amplio que se pueden hacer todas las modificaciones que el usuario necesite para adaptarlo a sus necesidades. 
+    //-       p.text-small Esto implica que su distribución al público no cuenta con limitaciones, por lo que su desarrollo suele provenir de trabajos colaborativos, donde una comunidad interactúa para mejorar las funcionalidades a partir de un punto base entregado por los desarrolladores.
+
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/19.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center #[i Software] semilibre
+    //-       p.text-small En principio, cuenta con prácticamente las mismas libertades que ofrece el #[i software] libre, las limitaciones que lo diferencian del anterior se asocian a aspectos comerciales (puesta a la venta de versiones modificadas) o su vinculación con sistemas operativos libres.
+
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/20.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center #[i Software freeware]
+    //-       p.text-small Los programas pertenecientes a esta categoría siguen siendo de uso gratuito, sin embargo, los usuarios tienen restringido su acceso al código fuente para modificarlo, dado que suele estar protegido con derechos de autor. El ejemplo más común de este tipo de #[i software] es la suite de #[i Google], que incluye aplicaciones como #[i Drive],#[i Gmail], calendario u hojas de cálculo. 
+    //-       p.text-small En esta categoría, se pueden implantar ciertas limitaciones de funciones avanzadas o de almacenamiento, que pueden ser desbloqueadas con el pago de una membresía.  
+
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/21.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center #[i Software] propietario
+    //-       p.text-small Son aplicativos con limitaciones tanto de uso como de distribución o modificación del código fuente. Estos #[i softwares] pueden otorgar ciertos permisos de acceso para modificaciones solo a ciertos usuarios, sin embargo, sin expresa autorización, no podrán ser utilizados por ninguna otra persona.
+
+    //- .row.mb-5.justify-content-center(data-aos="flip-up")
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/22.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center #[i Software] comercial
+    //-       p.text-small Cuentan con toda clase de limitaciones de forma similar al software propietario, pero con la posibilidad de levantar las limitaciones de uso a cambio de un pago. En el campo de la ofimática, el ejemplo más popular es el de la suite de #[i Office], desarrollada por #[i Microsoft]. 
+    //-       p.text-small Su acceso está restringido a quien compre la licencia vitalicia de uno de sus programas o pague de forma periódica su suscripción anual, llamada #[i Office] 365. 
+
+    //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
+    //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")
+    //-       .row.justify-content-center.mb-3
+    //-         .col-7
+    //-           figure
+    //-             img(src='@/assets/curso/temas/tema3/23.svg', alt='Texto que describa la imagen')
+    //-       h3.text-center Demo
+    //-       p.text-small Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. 
+    //-       p.text-small Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago.
 
     
     
