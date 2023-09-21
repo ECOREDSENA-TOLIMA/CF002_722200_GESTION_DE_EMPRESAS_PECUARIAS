@@ -225,14 +225,7 @@
         h2.text-center Demo
         p.text-small Son las versiones de prueba de programas que tienen una versión completa y, usualmente, de pago. Para acceder al contenido completo, se hace necesario un desembolso de dinero de forma periódica o a través de la adquisición de una licencia vitalicia. 
         p.text-small Su propósito es permitir un uso restringido del aplicativo, para otorgarle la oportunidad al usuario de probar si cumple con sus necesidades antes de efectuar el pago.
-
-      
-
-
-        
-
-
-
+    
     //- .row.mb-5(data-aos="flip-up")
     //-   .col-sm-6.col-lg-3.mb-4.mb-lg-0
     //-     .tarjeta--boton.p-4(style="height:100%; background-color:#FFFAD0")

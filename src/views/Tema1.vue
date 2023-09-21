@@ -9,10 +9,10 @@
     p.mb-5(data-aos="fade-left") La información es la disposición de datos de forma ordenada y estructurada, bajo reglas de un contexto específico, que generan utilidad. Los datos son en principio abstractos, por ejemplo, una serie de caracteres o dígitos numéricos presentados a modo de listado o de forma desorganizada, no aportan información de utilidad, sin embargo, si se les dota de contexto y se justifica su ordenamiento, pueden llevar al entendimiento de una situación específica.
 
     .row
-      .tarjeta.tarjeta.p-4.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
+      .tarjeta.tarjeta.p-4.mb-5(style="background-color:#DBF9BD")
         .row.justify-content-center.align-items-center
-          .col-lg-3
-            figure(data-aos="fade-right")
+          .col-lg-3.mb-3
+            figure
               img(src='@/assets/curso/temas/tema1/1.svg', alt='Texto que describa la imagen')
           .col-lg-7
             p(data-aos="fade-left") Por ejemplo, una lista de números de dos cifras presentadas en forma vertical podría significar miles de cosas, no obstante, si la columna se titula “Edad de los participantes”, puede deducirse que cada valor listado representa los años de edad de personas que pertenecen a un grupo estudiado; cada dato adicional que se incluya brindará un mayor contexto, por lo tanto, los datos se tornarán en información relevante.
@@ -24,53 +24,53 @@
     p.mb-5(data-aos="fade-left") El uso de la información es casi interminable y, para cualquier empresa, será la forma de avanzar si le encuentran la forma ideal, tal como se observa a continuación:
 
     .row
-      .tarjeta.p-4.mb-5(data-aos="flip-up")(style="background-color:#FFFAD0")
+      .tarjeta.p-4.mb-5(style="background-color:#FFFAD0")
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              h4(data-aos="fade-left") La información es base del conocimiento
-              p(data-aos="fade-left") La información tiene como propósito principal enriquecer el conocimiento sobre algún aspecto, esto conlleva a reducir los niveles de incertidumbre asociados a la temática, bien sea para prevenir eventos inesperados o para comprender todos los sucesos asociados. En cuanto a los aspectos administrativos, la información puede aportar elementos de juicio para apoyar la toma de decisiones en cualquier nivel de la organización.
+              h4 La información es base del conocimiento
+              p La información tiene como propósito principal enriquecer el conocimiento sobre algún aspecto, esto conlleva a reducir los niveles de incertidumbre asociados a la temática, bien sea para prevenir eventos inesperados o para comprender todos los sucesos asociados. En cuanto a los aspectos administrativos, la información puede aportar elementos de juicio para apoyar la toma de decisiones en cualquier nivel de la organización.
             .col-md-7.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/2.svg', alt='Texto que describa la imagen')
                 
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              h4(data-aos="fade-left") Análisis de la información
-              p(data-aos="fade-left") La información recolectada debe ser sometida a estudio o análisis. Su interpretación permite la transformación en acciones o toma de medidas, o incluso, en la generación de nuevas ideas. En este aspecto, cabe mencionar que, a mayor calidad de la información recolectada, la precisión de las estrategias basadas en ella, su efectividad y la precisión de la nueva información generada, también será mayor.
+              h4 Análisis de la información
+              p La información recolectada debe ser sometida a estudio o análisis. Su interpretación permite la transformación en acciones o toma de medidas, o incluso, en la generación de nuevas ideas. En este aspecto, cabe mencionar que, a mayor calidad de la información recolectada, la precisión de las estrategias basadas en ella, su efectividad y la precisión de la nueva información generada, también será mayor.
             .col-md-5.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              h4(data-aos="fade-left") Curaduría de la información
-              p(data-aos="fade-left") La apropiación de los datos dispuestos requiere de un mínimo criterio en la materia objeto de estudio, las personas que efectúe los análisis deben contar con mentalidad abierta al aprendizaje, como también al cuestionamiento; la veracidad de la información debe ser comprobada, porque existen fuentes de información poco fiables y pueden tener sesgos en los datos, igualmente porque las estrategias utilizadas para su recolección no son las más recomendables.
+              h4 Curaduría de la información
+              p La apropiación de los datos dispuestos requiere de un mínimo criterio en la materia objeto de estudio, las personas que efectúe los análisis deben contar con mentalidad abierta al aprendizaje, como también al cuestionamiento; la veracidad de la información debe ser comprobada, porque existen fuentes de información poco fiables y pueden tener sesgos en los datos, igualmente porque las estrategias utilizadas para su recolección no son las más recomendables.
             .col-md-5.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/4.svg', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              h4(data-aos="fade-left") Valide los datos y las fuentes de información
-              p(data-aos="fade-left") La toma de decisiones fundamentada en información imprecisa conlleva a toma incorrecta de decisiones, además en la actualidad con el uso de las redes sociales y de Internet existen muchas fuentes de información de fácil acceso, las publicaciones, los estudios académicos, las noticias, entre otras, que es necesario verificar y contrastar la información entre ellas, para determinar si son correctas.
+              h4 Valide los datos y las fuentes de información
+              p La toma de decisiones fundamentada en información imprecisa conlleva a toma incorrecta de decisiones, además en la actualidad con el uso de las redes sociales y de Internet existen muchas fuentes de información de fácil acceso, las publicaciones, los estudios académicos, las noticias, entre otras, que es necesario verificar y contrastar la información entre ellas, para determinar si son correctas.
             .col-md-5.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')
 
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              h4(data-aos="fade-left") Mercados y tendencias
-              p(data-aos="fade-left") La oportunidad es otra cualidad imprescindible en la información, puesto que conocer los aspectos relevantes de un escenario específico de forma oportuna permite la toma de decisiones e implementación de medidas a tiempo.
+              h4 Mercados y tendencias
+              p La oportunidad es otra cualidad imprescindible en la información, puesto que conocer los aspectos relevantes de un escenario específico de forma oportuna permite la toma de decisiones e implementación de medidas a tiempo.
             .col-md-5.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/6.svg', alt='Texto que describa la imagen')
           
           .row.justify-content-center.align-items-center 
             .col-md-4.mb-4.mb-md-0.p-4
-              p(data-aos="fade-left") Por ejemplo un suceso como la entrada al mercado de un nuevo producto de la competencia, conocer de ello a tiempo permite implementar estrategias, como campañas publicitarias, para robustecer las ventas de los bienes ofrecidos por la empresa, o incluso la reducción de los precios de venta si con ello se ajustan a las nuevas condiciones de la oferta
+              p Por ejemplo un suceso como la entrada al mercado de un nuevo producto de la competencia, conocer de ello a tiempo permite implementar estrategias, como campañas publicitarias, para robustecer las ventas de los bienes ofrecidos por la empresa, o incluso la reducción de los precios de venta si con ello se ajustan a las nuevas condiciones de la oferta
             .col-md-5.p-4
-              figure(data-aos="fade-right")
+              figure
                 img(src='@/assets/curso/temas/tema1/7.svg', alt='Texto que describa la imagen')
 
     separador 
@@ -79,14 +79,14 @@
 
     p.mb-5(data-aos="fade-left") La información atraviesa un proceso que contiene cuatro etapas principales y que comprenden aquellas actividades derivadas de su recolección, análisis y conservación. Cada etapa detalla una serie de parámetros centrados en la mejora de la productividad, bien sea enfocada en la precisión de la información recolectada, o en la consecución de objetivos a partir de la interpretación de los datos dispuestos. El siguiente diagrama presenta las cuatro etapas del ciclo de vida de la información:
 
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 1
-      span #[em Ciclo de vida de la información]
+  
+    .row.justify-content-center.align-items-center
+      span.text-center #[b Ciclo de vida de la información]
 
     .row.mt-5
       ImagenInfografica.color-primario.mb-5.desktop
         template(v-slot:imagen)
-          figure(data-aos="flip-up")
+          figure
             img(src='@/assets/curso/temas/tema1/8.svg', alt='Texto que describa la imagen')
         
         .tarjeta.color-acento-botones.p-3(x="18%" y="32.5%" numero="")
@@ -132,7 +132,7 @@
       h2#t_1_3 1.3  Lenguaje técnico
       
     .row
-      .tarjeta.p-4.mb-3(data-aos="flip-up")
+      .tarjeta.p-4.mb-3
         .row.justify-content-center.align-items-center 
           .col-md-4.p-4
             figure(data-aos="fade-right")
@@ -143,15 +143,11 @@
 
     p.mb-5(data-aos="fade-left") Conforme pasa el tiempo, el enriquecimiento de nuestro idioma se ve liderado por la utilización de lenguajes técnicos para todas las disciplinas abordadas. Castillo (2018) sugiere las siguientes características para este lenguaje:            
 
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 2
-      span #[em Características del lenguaje técnico]
-
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-8
         ImagenInfografica.color-secundario.mb-5.desktop
           template(v-slot:imagen)
-            figure(data-aos="flip-up")
+            figure
               img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
           
           .tarjeta.color-acento-botones.p-3(x="8.2%" y="27.9%" numero="")
@@ -205,7 +201,7 @@
     //-             p(data-aos="fade-left") Todas las personas tienen derecho a su intimidad personal y familiar y a su buen nombre, y el Estado debe respetarlos y hacerlos respetar. De igual modo, tienen derecho a conocer, actualizar y rectificar las informaciones que se hayan recogido sobre ellas en bancos de datos y en archivos de entidades públicas y privadas.
             
     .row
-      .tarjeta.tarjeta.p-4.mb-5(style="background-color:#FFFAD0")(data-aos="flip-up")
+      .tarjeta.tarjeta.p-4.mb-5(style="background-color:#FFFAD0")
         .row.justify-content-center.align-items-center
           .col-lg-3
             figure(data-aos="fade-right")
@@ -244,7 +240,7 @@
     .row.row.justify-content-center.align-items-center
       .col-12.mb-5.mt-5
         .row.justify-content-center.align-items-center
-          .col-lg-5
+          .col-lg-5.mb-3
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema1/13.svg', alt='Texto que describa la imagen')
           .col-lg-7
@@ -255,7 +251,7 @@
 
     .row.justify-content-center.align-items-center
       .col-3
-        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -267,7 +263,7 @@
                     i.fas.fa-link
 
       .col-3
-        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -279,7 +275,7 @@
                     i.fas.fa-link
 
       .col-3
-        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")(data-aos="flip-up")
+        .tarjeta.color.p-3.mb-5(style="background-color:#DBF9BD")
           .row.justify-content-around.align-items-center
             .col
               .row.justify-content-between.align-items-center
@@ -296,21 +292,19 @@
 
     p(data-aos="fade-left") Una fuente es el origen de los datos, de donde proviene la información. Según su procedencia, pueden clasificarse así:
 
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 3
-      span #[em Fuentes de información]
-
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-10
         ImagenInfografica.color-secundario.mb-5.desktop
           template(v-slot:imagen)
-            figure(data-aos="flip-up")
+            figure
               img(src='@/assets/curso/temas/tema1/14.svg', alt='Texto que describa la imagen')
           
           .tarjeta.color-acento-botones.p-3(x="6.5%" y="44.8%" numero="")
-            p Provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
+            p Provienen de un trabajo intelectual original, donde su autor observó los hechos y los registró, sin soportarse en el trabajo de otros. 
+            p Son considerados los datos más confiables, puesto que no sufren ningún tipo de transformación o adaptación y, por lo tanto, transmiten las ideas de la forma más fidedigna a la voluntad del autor. Ejemplos de estas fuentes son las encuestas, cuestionarios, libros o fotografías.
           .tarjeta.color-acento-botones.p-3(x="93.6%" y="44.8%" numero="")
-            p Surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes.
+            p Surgen de las fuentes primarias, es decir, se nutren de contenido ya registrado y recopilado, sometiéndolo a transformaciones o adaptaciones, para facilitar el proceso de transmisión o para complementar el trabajo realizado por el autor original. 
+            p Ejemplos de este tipo de fuentes son los resúmenes, traducciones, reseñas o adaptaciones de contenido original. Usualmente, no son utilizadas en investigaciones, puesto que en el proceso de transformación pueden omitirse datos relevantes.
 
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-10

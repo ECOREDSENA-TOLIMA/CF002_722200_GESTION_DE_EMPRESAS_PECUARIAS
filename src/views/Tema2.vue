@@ -48,7 +48,7 @@
       
       .row.justify-content-center.align-items-center(titulo="Trabajo en equipo")
         .col-md-5.mb-4.mb-md-0
-          p Delegar funciones y estructurar el trabajo de forma organizada contribuye a la eficiencia en el proceso de recolección de información. Coordinar el trabajo puede reducir costos y optimizar los resultados, es por ello que la planeación toma relevancia durante el proceso de elección de metodología
+          p Delegar funciones y estructurar el trabajo de forma organizada contribuye a la eficiencia en el proceso de recolección de información. Coordinar el trabajo puede reducir costos y optimizar los resultados, es por ello que la planeación toma relevancia durante el proceso de elección de metodología.
         .col-md-4.offset-1
           figure
             img(src='@/assets/curso/temas/tema2/5.svg', alt='Texto que describa la imagen')
@@ -65,7 +65,7 @@
           .row.justify-content-center.align-items-center 
             .col-md-5.mb-4.mb-md-0.p-4
               h4(data-aos="fade-left") La observación y sus ventajas
-              p(data-aos="fade-left") Es una metodología amplia, que puede ser aplicada de manera individual, lo que puede significar un ahorro significativo en los costos asociados a una investigación. Por ejemplo, si para llevar a cabo el estudio se hace necesario el transporte a zonas alejadas, la disminución en gastos de viaje al llevar un solo investigador puede implicar la viabilidad o no de todo un proyecto
+              p(data-aos="fade-left") Es una metodología amplia, que puede ser aplicada de manera individual, lo que puede significar un ahorro significativo en los costos asociados a una investigación. Por ejemplo, si para llevar a cabo el estudio se hace necesario el transporte a zonas alejadas, la disminución en gastos de viaje al llevar un solo investigador puede implicar la viabilidad o no de todo un proyecto.
             .col-md-4.p-4
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/6.svg', alt='Texto que describa la imagen')
@@ -123,7 +123,6 @@
               h2.text-small Diseñar herramientas idóneas
               p.text-small Para que la observación siga un esquema concreto, donde los datos obtenidos puedan ser registrados de forma precisa y oportuna.
               
-
     .row.justify-content-center
       .col-lg-5(data-aos="flip-up")
         .tarjeta-avatar-b.mb-5
@@ -140,16 +139,12 @@
           .tarjeta.tarjeta(style="background-color:#DBF9BD; height:100%")
             .p-4.mb-4
               h2.text-small Asignar labores y distribuir el trabajo
-              p.text-small De tal forma que el equipo involucrado realice las tareas de forma organizada y eficiente. Esto solo aplica para los trabajos investigativos que requieran de más de un investigador o colaborador
+              p.text-small De tal forma que el equipo involucrado realice las tareas de forma organizada y eficiente. Esto solo aplica para los trabajos investigativos que requieran de más de un investigador o colaborador.
               
     h3.titulo-tercero 2.2.2	#[em Modalidades de observación]
 
     p.mb-5(data-aos="fade-left") La observación puede clasificarse según diversos criterios, a continuación, se presentan los sistemas que gozan de mayor aceptación: 
 
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 4
-      span #[em Modalidades de observación]
-    
     .row.mt-5
       ImagenInfografica.color-primario.mb-5.desktop
         template(v-slot:imagen)
@@ -201,10 +196,6 @@
     h3.titulo-tercero 2.2.3	#[em Instrumentos para la recolección de información]
 
     p.mb-5(data-aos="fade-left") La observación puede considerarse una de las metodologías de recolección de datos más sencillas y de fácil aplicación, sin embargo, como cualquier otra, requiere de herramientas que permitan llevar un seguimiento de los avances conseguidos. Con esto, no solo se busca recolectar más información, sino contar con un registro organizado y controlado de todos los aspectos relevantes, que facilite el análisis y la interpretación. Los siguientes son algunos de los medios más utilizados:
-
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 5
-      span #[em Instrumentos para la recolección de información en la observación]
 
     .row.mt-5.justify-content-center.align-items-center
       .col-lg-12
@@ -329,15 +320,15 @@
     p.mb-5(data-aos="fade-left") La entrevista se compone mayoritariamente de un factor social, donde interactúan, en principio, un encuestador, haciendo las preguntas y dirigiendo la conversación, y un entrevistado, quien responde y aporta la información a su alcance. La forma de clasificación más común de esta metodología parte de la forma en la que se desarrolla esta interacción, presentando las siguientes tres categorías:
 
     .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 6
+      h5 Figura 1
       span #[em Tipos de entrevista]
 
     .row.justify-content-center.align-items-center 
       .col-lg-8.mb-5
         figure.desktop(data-aos="flip-up")
-          img(src='@/assets/curso/temas/tema2/20.svg', alt='Texto que describa la imagen')          
+          img(src='@/assets/curso/temas/tema2/20.svg', alt='Entrevista Estructurada Semiestructurada No estructurada: •	Focalizadas •	No dirigida en profundidad')
         figure.movil(data-aos="flip-up")
-          img(src='@/assets/curso/temas/tema2/21.svg', alt='Texto que describa la imagen')          
+          img(src='@/assets/curso/temas/tema2/21.svg', alt='Entrevista Estructurada Semiestructurada No estructurada: •	Focalizadas •	No dirigida en profundidad')          
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8 
@@ -428,10 +419,6 @@
 
     p.mb-5(data-aos="fade-left") La correcta ejecución de una entrevista demanda el seguimiento de una serie de pasos que permitan abordar la actividad con el direccionamiento correcto. Para ello, resulta relevante centrarse en la función de la información que espera obtenerse. A continuación, se ofrece un listado de actividades que pueden tenerse presente para que la entrevista cumpla sus objetivos:              
 
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 7
-      span #[em Pasos para aplicar una entrevista]
-
     .row.justify-content-center.align-items-center
       .col-10
         PasosA.color-primario.mb-5(tipo="n")(data-aos="flip-up")
@@ -465,7 +452,7 @@
                 img(src='@/assets/curso/temas/tema2/29.svg', alt='Texto que describa la imagen')
             .col-sm-6.mb-4.mb-md-0.offset-2
               h3 Comienzo
-              p El principal objetivo de esta fase es crear un ambiente ameno y de confianza entre las partes. Las preguntas a formular aquí deben ser sencillas y llevar a respuestas que no demanden profundización ni tema específico; lo que se busca es delimitar el contexto de forma amplia y garantizar tranquilidad y voluntad para responder
+              p El principal objetivo de esta fase es crear un ambiente ameno y de confianza entre las partes. Las preguntas a formular aquí deben ser sencillas y llevar a respuestas que no demanden profundización ni tema específico; lo que se busca es delimitar el contexto de forma amplia y garantizar tranquilidad y voluntad para responder.
 
           .row.justify-content-center.align-items-center
             .col-sm-6.mb-4.mb-md-0
@@ -507,7 +494,7 @@
         p.mb-3(data-aos="fade-left") Como en la mayoría de las investigaciones, hacer partícipes a todos los individuos de una población resultaría innecesariamente costoso y trabajoso, es por ello que este modelo apunta a selecciones aleatorias o controladas de los sujetos a estudiar. El grupo seleccionado se conoce como muestra, y los resultados alcanzados tras su estudio, así como las respectivas conclusiones, son extrapolados a la totalidad de la población que se pretende estudiar.
         p.mb-3(data-aos="fade-left") La facilidad de aplicación de la encuesta la ha convertido en una estrategia de amplia aceptación; esto se debe, en primera medida, al avance de las herramientas tecnológicas que permiten alcanzar poblaciones mucho mayores, de forma efectiva y casi inmediata. Es común observar encuestas enviadas y diligenciadas con el teléfono celular o un ordenador con acceso a Internet; si son lo suficientemente breves, pueden responderse en unos cuantos minutos, lo que facilita aún más el reclutamiento de sujetos para ser objeto de estudio.
         
-    h3.mt-5.titulo-tercero 2.4.1	#[em Posibilidades y limitaciones.] 
+    h3.mt-5.titulo-tercero 2.4.1	#[em Posibilidades y limitaciones] 
 
     p(data-aos="fade-left") La metodología de la encuesta resulta muy práctica y de fácil aplicación para la recolección de datos, sin embargo, al igual que cualquier otro sistema, tiene desventajas que podrían no hacerla ideal en ciertas situaciones. Las cualidades y limitaciones de la encuesta son las siguientes:
 
@@ -734,10 +721,6 @@
 
     h3.titulo-tercero 2.5.3	#[em Tipos de análisis] 
     p.mb-5(data-aos="fade-left") La clasificación de los análisis de contenido puede obedecer a criterios variados. Emanuelli et al. (2012) recopilan una serie de ellos en su obra, como se expone a continuación:
-
-    .titulo-sexto.color-acento-contenido.offset-2
-      h5 Figura 8
-      span #[em Pasos para aplicar una entrevista]
 
     .row.mt-5
       ImagenInfografica.color-primario.mb-5.desktop
