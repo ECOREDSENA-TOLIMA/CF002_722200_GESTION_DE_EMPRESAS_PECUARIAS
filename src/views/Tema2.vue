@@ -315,7 +315,7 @@
               figure(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/19.svg', alt='Texto que describa la imagen')
 
-    h3.titulo-tercero 2.3.1	#[em Clasificación]
+    h3.titulo-tercero 2.3.1	Clasificación
 
     p.mb-5(data-aos="fade-left") La entrevista se compone mayoritariamente de un factor social, donde interactúan, en principio, un encuestador, haciendo las preguntas y dirigiendo la conversación, y un entrevistado, quien responde y aporta la información a su alcance. La forma de clasificación más común de esta metodología parte de la forma en la que se desarrolla esta interacción, presentando las siguientes tres categorías:
 
@@ -352,7 +352,7 @@
         .tarjeta.tarjeta.p-4.mb-3(style="background-color:#FFFAD0")(data-aos="flip-up")
           p.text-small #[b No dirigida o en profundidad:] son entrevistas que buscan tocar diversos temas de interés sin profundizar en ningún área en concreto. Ejemplo de ellas son las que se encuentran en revistas o programas de farándula, donde el entrevistado responde todo tipo de preguntas profesionales y personales. Demandan una gran confianza y un ambiente de familiaridad para que el entrevistado sea más honesto y espontáneo, y para que los cambios de rumbo dictados por el entrevistador no se tomen a la defensiva.
 
-    h3.mt-5.titulo-tercero 2.3.2	#[em Posibilidades y limitaciones]
+    h3.mt-5.titulo-tercero 2.3.2	Posibilidades y limitaciones
 
 
     .row.justify-content-center.align-items-center
@@ -415,7 +415,7 @@
     //-             p.text-small(data-aos="fade-left") El margen de error es más amplio que con otras metodologías, puesto que las preguntas abiertas y espontáneas se pueden prestar para diversas interpretaciones. Esta situación es aún más compleja si el juicio del investigador se ve afectado por su exceso o falta de empatía con el entrevistado, lo que puede generar sesgos en la información.
     //-             p.text-small(data-aos="fade-left") La práctica ha demostrado que, usualmente, hay una gran brecha entre lo que un entrevistado hace y lo que dice que haría. Usualmente, los hechos son recordados con leves variaciones inconscientes; de la misma forma, preocupado por su imagen, puede responder que tomaría una posición o ejecutaría una acción de modo hipotético, mientras que en la realidad nunca lo haría. Es por ello que la calidad de las conclusiones alcanzadas está estrechamente relacionada con la honestidad que tengan los entrevistados, situación difícilmente medible con esta metodología.
 
-    h3.titulo-tercero 2.3.3	#[em Pasos para su aplicación.]  
+    h3.titulo-tercero 2.3.3	Pasos para su aplicación
 
     p.mb-5(data-aos="fade-left") La correcta ejecución de una entrevista demanda el seguimiento de una serie de pasos que permitan abordar la actividad con el direccionamiento correcto. Para ello, resulta relevante centrarse en la función de la información que espera obtenerse. A continuación, se ofrece un listado de actividades que pueden tenerse presente para que la entrevista cumpla sus objetivos:              
 
@@ -494,7 +494,7 @@
         p.mb-3(data-aos="fade-left") Como en la mayoría de las investigaciones, hacer partícipes a todos los individuos de una población resultaría innecesariamente costoso y trabajoso, es por ello que este modelo apunta a selecciones aleatorias o controladas de los sujetos a estudiar. El grupo seleccionado se conoce como muestra, y los resultados alcanzados tras su estudio, así como las respectivas conclusiones, son extrapolados a la totalidad de la población que se pretende estudiar.
         p.mb-3(data-aos="fade-left") La facilidad de aplicación de la encuesta la ha convertido en una estrategia de amplia aceptación; esto se debe, en primera medida, al avance de las herramientas tecnológicas que permiten alcanzar poblaciones mucho mayores, de forma efectiva y casi inmediata. Es común observar encuestas enviadas y diligenciadas con el teléfono celular o un ordenador con acceso a Internet; si son lo suficientemente breves, pueden responderse en unos cuantos minutos, lo que facilita aún más el reclutamiento de sujetos para ser objeto de estudio.
         
-    h3.mt-5.titulo-tercero 2.4.1	#[em Posibilidades y limitaciones] 
+    h3.mt-5.titulo-tercero 2.4.1	Posibilidades y limitaciones
 
     p(data-aos="fade-left") La metodología de la encuesta resulta muy práctica y de fácil aplicación para la recolección de datos, sin embargo, al igual que cualquier otro sistema, tiene desventajas que podrían no hacerla ideal en ciertas situaciones. Las cualidades y limitaciones de la encuesta son las siguientes:
 

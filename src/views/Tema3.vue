@@ -119,7 +119,7 @@
 
     separador 
     .titulo-segundo.color-secundario
-      h2#t_3_3 3.3 Softwares de recolección de datos
+      h2#t_3_3 3.3 #[i Softwares] de recolección de datos
     
     p.mb-5(data-aos="fade-left") La recolección de datos es una de las mejoras constantes que se ha hecho en la forma de la información y una de las mejoras notables son los programas software con los que se hace esta gestión desde las TIC, tal como se menciona a continuación:
 
