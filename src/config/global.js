@@ -94,7 +94,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Ofimática',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -109,7 +109,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Softwares de recolección de datos',
+            titulo: '<i>Software</i> de recolección de datos',
             hash: 't_3_3',
           },
           {
@@ -181,7 +181,7 @@ export default {
       link: 'https://youtu.be/N1Jwap5uOhY',
     },
     {
-      tema: 'Softwares de recolección de datos',
+      tema: '<i>Software</i> de recolección de datos',
       referencia:
         'Regalado, J. (2020) Crea CUESTIONARIOS autoevaluables con Google FORMULARIOS [Video]. YouTube.',
       tipo: 'Video',
@@ -192,7 +192,7 @@ export default {
     {
       termino: 'Código fuente',
       significado:
-        'Listado de instrucciones que parametrizan el funcionamiento de un software. ',
+        'Listado de instrucciones que parametrizan el funcionamiento de un <i>software</i>. ',
     },
     {
       termino: 'Encriptación',
@@ -214,7 +214,7 @@ export default {
         'Derecho que se posee sobre una idea, concepto o cualquier creación surgida del intelecto humano.',
     },
     {
-      termino: '<em>Software</em>',
+      termino: '<i>Software</i>',
       significado: 'Conjunto de programas para computadora. ',
     },
     {
@@ -290,9 +290,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -300,9 +300,41 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Andrés Felipe Avilan Lozano',
+          cargo: 'Experto temático ',
+          centro: 'Regional Tolima -  Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Luis Fernando Botero Mendoza',
+          cargo: 'Diseñador Instruccional ',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica ',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico ',
+          centro:
+            'Regional Santantder - Centro Industrial Del Diseño y La Manufactura',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica  ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo ',
+          centro: 'Regional Tolima -  Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Humberto Arias Díaz',
+          cargo: 'Diseñador Instruccional ',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios. ',
+        },
+        {
+          nombre: 'Maria Inés Machado López',
+          cargo: 'Asesor Metodológico ',
+          centro: 'Regional Tolima -  Centro de Comercio y Servicios. ',
         },
       ],
     },
@@ -310,19 +342,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Luis Fernando Botero Mendoza ',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Sebastián Trujillo Afanador',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Producción audiovisual',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios ',
         },
       ],
     },
@@ -330,14 +377,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
+          nombre: 'Gilberto Naranjo Farfán',
           cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          centro: 'Regional Tolima – Centro de Comercio y Servicios',
         },
       ],
     },

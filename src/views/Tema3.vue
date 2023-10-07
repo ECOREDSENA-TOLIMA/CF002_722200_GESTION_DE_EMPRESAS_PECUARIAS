@@ -19,7 +19,7 @@
 
     separador 
     .titulo-segundo.color-secundario
-      h2#t_3_1 3.1 Uso
+      h2#t_3_1 3.1 Usos
 
     p.mb-5(data-aos="fade-left") Como se ha mencionado previamente, la ofimática busca facilitar el trabajo propio de una oficina, y para ello, ofrece herramientas que ofrecen apoyo para estas tareas. Las siguientes son algunas de las funciones que se desprenden de este concepto:
 
@@ -40,7 +40,7 @@
       
       .row.justify-content-center.align-items-center(titulo="Consulta automatizada")
         .col-md-5.mb-4.mb-md-0
-          p La indización de los documentos permite que su consulta a través de medios electrónicos sea mucho más veloz. Existen softwares con utilidades que permiten consultar a partir de criterios de búsqueda específicos, ya sea por tipo de documento, palabras clave en su nombre o contenido, dimensiones, entre otros.
+          p La indización de los documentos permite que su consulta a través de medios electrónicos sea mucho más veloz. Existen #[i software] con utilidades que permiten consultar a partir de criterios de búsqueda específicos, ya sea por tipo de documento, palabras clave en su nombre o contenido, dimensiones, entre otros.
         .col-md-4.offset-1
           figure
             img(src='@/assets/curso/temas/tema3/4.svg', alt='Texto que describa la imagen')
@@ -119,9 +119,9 @@
 
     separador 
     .titulo-segundo.color-secundario
-      h2#t_3_3 3.3 #[i Softwares] de recolección de datos
+      h2#t_3_3 3.3 #[i Software] de recolección de datos
     
-    p.mb-5(data-aos="fade-left") La recolección de datos es una de las mejoras constantes que se ha hecho en la forma de la información y una de las mejoras notables son los programas software con los que se hace esta gestión desde las TIC, tal como se menciona a continuación:
+    p.mb-5(data-aos="fade-left") La recolección de datos es una de las mejoras constantes que se ha hecho en la forma de la información y una de las mejoras notables son los programas #[i software] con los que se hace esta gestión desde las TIC, tal como se menciona a continuación:
 
 
     .tarjeta.tarjeta--gris.p-4
@@ -160,7 +160,7 @@
                 li
                   i.lista-ul__vineta
                   | #[b Encuestas electrónicas:] el sistema tradicional de las encuestas demandaba un trabajo significativo en cuanto a su diseño, impresión, consumo de recursos y el transporte de los documentos hasta la población objeto de estudio; el retorno de estos insumos tras la recolección de información también resultaba costoso, sin contar los riesgos asumidos, como la pérdida de contenido o su deterioro por las condiciones a las que se sometían. Además, una vez recopilados los datos, se hacía necesario transcribirlos en limpio para su posterior tabulación o consolidación, lo que implicaba una gran cantidad de esfuerzo solo organizando la información. 
-              p.text-small(data-aos="fade-left") Las encuestas electrónicas solventan una buena porción de las limitantes recientemente descritas, pueden elaborarse y diligenciarse a través de computadoras o dispositivos móviles, ajustándose  a las necesidades de cada usuario, con tamaños y tipos de letra modificables para hacer más cómodo su diligenciamiento. Su conservación suele hacerse en la nube, por lo que los datos pueden ser accedidos desde cualquier ubicación de forma inmediata, y su exportación a hojas de cálculo u otros softwares se hace aún más accesible. Con ello, tanto los costos como el tiempo que se debe destinar se ven reducidos a una mínima porción, lo que abre la posibilidad a encuestas de mayores dimensiones y dirigidas a poblaciones mucho más grandes. 
+              p.text-small(data-aos="fade-left") Las encuestas electrónicas solventan una buena porción de las limitantes recientemente descritas, pueden elaborarse y diligenciarse a través de computadoras o dispositivos móviles, ajustándose  a las necesidades de cada usuario, con tamaños y tipos de letra modificables para hacer más cómodo su diligenciamiento. Su conservación suele hacerse en la nube, por lo que los datos pueden ser accedidos desde cualquier ubicación de forma inmediata, y su exportación a hojas de cálculo u otros #[i software] se hace aún más accesible. Con ello, tanto los costos como el tiempo que se debe destinar se ven reducidos a una mínima porción, lo que abre la posibilidad a encuestas de mayores dimensiones y dirigidas a poblaciones mucho más grandes. 
 
           .row.justify-content-center.align-items-center
             .col-lg-6
@@ -200,7 +200,7 @@
           .col-8
             img(src='@/assets/curso/temas/tema3/20.svg' alt='AvatarTop')
         h2.text-center #[i Software freeware]
-        p.text-small Los programas pertenecientes a esta categoría siguen siendo de uso gratuito, sin embargo, los usuarios tienen restringido su acceso al código fuente para modificarlo, dado que suele estar protegido con derechos de autor. El ejemplo más común de este tipo de #[i software] es la suite de #[i Google], que incluye aplicaciones como #[i Drive],#[i Gmail], calendario u hojas de cálculo. 
+        p.text-small Los programas pertenecientes a esta categoría siguen siendo de uso gratuito, sin embargo, los usuarios tienen restringido su acceso al código fuente para modificarlo, dado que suele estar protegido con derechos de autor. El ejemplo más común de este tipo de #[i software] es la #[i suite] de #[i Google], que incluye aplicaciones como #[i Drive], #[i Gmail], calendario u hojas de cálculo. 
         p.text-small En esta categoría, se pueden implantar ciertas limitaciones de funciones avanzadas o de almacenamiento, que pueden ser desbloqueadas con el pago de una membresía.  
 
       .tarjeta.color-secundario.p-4
@@ -208,14 +208,14 @@
           .col-8
             img(src='@/assets/curso/temas/tema3/21.svg' alt='AvatarTop')
         h2.text-center #[i Software] propietario
-        p.text-small Son aplicativos con limitaciones tanto de uso como de distribución o modificación del código fuente. Estos #[i softwares] pueden otorgar ciertos permisos de acceso para modificaciones solo a ciertos usuarios, sin embargo, sin expresa autorización, no podrán ser utilizados por ninguna otra persona.
+        p.text-small Son aplicativos con limitaciones tanto de uso como de distribución o modificación del código fuente. Estos #[i software] pueden otorgar ciertos permisos de acceso para modificaciones solo a ciertos usuarios, sin embargo, sin expresa autorización, no podrán ser utilizados por ninguna otra persona.
 
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-8
             img(src='@/assets/curso/temas/tema3/22.svg' alt='AvatarTop')
         h2.text-center #[i Software] comercial
-        p.text-small Cuentan con toda clase de limitaciones de forma similar al software propietario, pero con la posibilidad de levantar las limitaciones de uso a cambio de un pago. En el campo de la ofimática, el ejemplo más popular es el de la suite de #[i Office], desarrollada por #[i Microsoft]. 
+        p.text-small Cuentan con toda clase de limitaciones de forma similar al #[i software] propietario, pero con la posibilidad de levantar las limitaciones de uso a cambio de un pago. En el campo de la ofimática, el ejemplo más popular es el de la #[i suite] de #[i Office], desarrollada por #[i Microsoft]. 
         p.text-small Su acceso está restringido a quien compre la licencia vitalicia de uno de sus programas o pague de forma periódica su suscripción anual, llamada #[i Office] 365. 
 
       .tarjeta.color-secundario.p-4

@@ -100,14 +100,14 @@
           p A través de las actividades desarrolladas por los funcionarios encargados.
         .tarjeta.color-acento-botones.p-3(x="18%" y="86.8%" numero="")
           .h5.mb-2 Información disponible
-          p En medios de acceso público, como libros, noticiarios, páginas web o redes sociales; la selección de estas fuentes estará supeditada a la naturaleza de la investigación y sus objetivos.
+          p En medios de acceso público, como libros, noticiarios, páginas #[i web] o redes sociales; la selección de estas fuentes estará supeditada a la naturaleza de la investigación y sus objetivos.
         .tarjeta.color-acento-botones.p-3(x="43%" y="32.5%" numero="")
           .h5.mb-2 Transmisión, almacenamiento y seguridad
           p Una vez la información ha sido recolectada, se continúa con la transmisión a los usuarios interesados. Para garantizar el acceso a los datos en periodos posteriores, es necesario su almacenaje en condiciones seguras que garanticen su integridad.
         .tarjeta.color-acento-botones.p-3(x="43%" y="50.1%" numero="")
           .h5.mb-2 Transmisión
           p La información puede ser relevante para diferentes actores en una misma organización. Los datos de venta son importantes para el área comercial, pero también lo son para el área de recaudo o de producción. Debido a esto, deben existir medios de transmisión de la información que permitan que esta llegue a todos los interesados. 
-          p Las posibilidades van desde las soluciones integrales asociadas a softwares administrativos, hasta los programas de mensajería instantánea.
+          p Las posibilidades van desde las soluciones integrales asociadas a #[i software] administrativos, hasta los programas de mensajería instantánea.
         .tarjeta.color-acento-botones.p-3(x="43%" y="67.9%" numero="")
           .h5.mb-2 Almacenamiento
           p Tanto la información física como digital demandan espacios para su almacenamiento. Las bases de datos abordan esta tarea conservando la información según los criterios técnicos aplicados, de la misma forma que lo hace una estantería que archiva los documentos físicos.
@@ -151,7 +151,7 @@
               img(src='@/assets/curso/temas/tema1/10.svg', alt='Texto que describa la imagen')
           
           .tarjeta.color-acento-botones.p-3(x="8.2%" y="27.9%" numero="")
-            p Conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural
+            p Conforme más tiempo pasa, más acelerado es su crecimiento, es una situación natural en la sociedad actual, donde el acceso a la educación es cada vez más popular, y las nuevas tecnologías permiten la publicación a nivel global de toda clase de artículos que promueven el avance cultural.
           .tarjeta.color-acento-botones.p-3(x="8.2%" y="72.4%" numero="")
             p Se considera coherente debido a su enfoque en un tema particular, mientras que su cohesión proviene del interés en generar afirmaciones a partir de diversos juicios e ideas que convergen en algo más concreto. Por último, se habla de adecuación debido a la forma en la que se perfila para ser dirigido a un público específico.
           .tarjeta.color-acento-botones.p-3(x="91.9%" y="27.8%" numero="")

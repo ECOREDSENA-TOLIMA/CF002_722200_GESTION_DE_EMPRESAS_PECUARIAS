@@ -34,7 +34,7 @@
       
       .row.justify-content-center.align-items-center(titulo="Objeto o hipótesis de investigación")
         .col-md-5.mb-4.mb-md-0
-          p Definir la problemática a abordar o la hipótesis que se espera poner a prueba brinda nociones respecto a los instrumentos de recolección de información más útiles. Se espera que los datos recogidos aporten a la comprobación o cuestionamiento de la problemática abordada, por lo que toda información debe cumplir un propósito.
+          p Definir la problemática a abordar o la hipótesis que se espera poner a prueba, brinda nociones respecto a los instrumentos de recolección de información más útiles. Se espera que los datos recogidos aporten a la comprobación o cuestionamiento de la problemática abordada, por lo que toda información debe cumplir un propósito.
         .col-md-4.offset-1
           figure
             img(src='@/assets/curso/temas/tema2/3.svg', alt='Texto que describa la imagen')
@@ -159,7 +159,7 @@
           p Según la naturaleza de la investigación, en algunas ocasiones, el observador puede hacerse partícipe del hecho estudiado.
         .tarjeta.color-acento-botones.p-3(x="51.7%" y="44.3%" numero="")
           .h5.mb-2 Según aproximación al objeto
-          p Este criterio contempla como elemento diferenciador la cercanía del observador con el fenómeno estudiado. Se diferencia un escenario en el que ejecuta las pruebas y analiza los eventos, o por el contrario, el material analizado proviene de terceros.
+          p Este criterio contempla como elemento diferenciador la cercanía del observador con el fenómeno estudiado. Se diferencia un escenario en el que ejecuta las pruebas y analiza los eventos o, por el contrario, el material analizado proviene de terceros.
         .tarjeta.color-acento-botones.p-3(x="76.2%" y="44.3%" numero="")
           .h5.mb-2 Según el lugar
           p Contempla las condiciones del lugar donde se desarrollan los hechos observables y a partir de ellas presenta la siguiente clasificación:
@@ -354,6 +354,8 @@
 
     h3.mt-5.titulo-tercero 2.3.2	Posibilidades y limitaciones
 
+    p.mb-5(data-aos="fade-left") Al igual que las demás metodologías de recolección de información, la entrevista ofrece diversas posibilidades, a la vez que está sometida a una serie de limitaciones en su aplicación. Se presentan las de mayor relevancia, así:
+
 
     .row.justify-content-center.align-items-center
       .col-10.mt-3
@@ -441,7 +443,7 @@
           .row.justify-content-center.align-items-center
             .col-sm-6.mb-4.mb-md-0
               h3 Planificar la entrevista
-              p para maximizar la obtención de resultados, es recomendable un trabajo de planeación previo a la aplicación de la entrevista. En este boceto inicial, se deben plantear las preguntas principales, la ruta que se espera seguir, e incluso la elección del entrevistador. Para profundizar en esto, la entrevista puede dividirse en tres momentos fundamentales:
+              p Para maximizar la obtención de resultados, es recomendable un trabajo de planeación previo a la aplicación de la entrevista. En este boceto inicial, se deben plantear las preguntas principales, la ruta que se espera seguir, e incluso la elección del entrevistador. Para profundizar en esto, la entrevista puede dividirse en tres momentos fundamentales:
             .col-sm-3.offset-2
               figure
                 img(src='@/assets/curso/temas/tema2/28.svg', alt='Texto que describa la imagen')
@@ -457,7 +459,7 @@
           .row.justify-content-center.align-items-center
             .col-sm-6.mb-4.mb-md-0
               h3 Desarrollo
-              p En esta fase se debe brindar el espacio necesario para que el entrevistado responda tomando todo el tiempo que necesite, de tal forma que no se sienta presionado o que se busca evaluar sus conocimientos en la materia. El entrevistador debe intentar mantener una posición independiente de las respuestas, sin hacer juicios de valor aprobando o desaprobando la posición del entrevistado. Según su habilidad, podrá replantear una misma pregunta con diferente vocabulario para corroborar una posición y minimizar el sesgo a la hora de registrar la información obtenida.
+              p En esta fase se debe brindar el espacio necesario para que el entrevistado responda tomando todo el tiempo que necesite, de tal forma que no se sienta presionado o que se busca evaluar sus conocimientos en la materia. El entrevistador debe intentar mantener una posición independiente de las respuestas, sin hacer juicios de valor, aprobando o desaprobando la posición del entrevistado. Según su habilidad, podrá replantear una misma pregunta con diferente vocabulario para corroborar una posición y minimizar el sesgo a la hora de registrar la información obtenida.
             .col-sm-3.offset-2
               figure
                 img(src='@/assets/curso/temas/tema2/30.svg', alt='Texto que describa la imagen')
