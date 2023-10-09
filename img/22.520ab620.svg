@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90.834" height="90.834" viewBox="0 0 90.834 90.834">
+  <g id="Grupo_1066790" data-name="Grupo 1066790" transform="translate(-118.826 -51.041)">
+    <g id="microsoft" transform="translate(118.826 51.041)">
+      <path id="Trazado_615566" data-name="Trazado 615566" d="M272,42.578h42.578V2.839A2.84,2.84,0,0,0,311.74,0H272Z" transform="translate(-223.744)" fill="#4caf50"/>
+      <path id="Trazado_615567" data-name="Trazado 615567" d="M42.578,42.578V0H2.839A2.84,2.84,0,0,0,0,2.839v39.74Z" fill="#f44336"/>
+      <path id="Trazado_615568" data-name="Trazado 615568" d="M42.578,272H0v39.74a2.84,2.84,0,0,0,2.839,2.839h39.74Z" transform="translate(0 -223.744)" fill="#2196f3"/>
+      <path id="Trazado_615569" data-name="Trazado 615569" d="M272,272v42.578h39.74a2.84,2.84,0,0,0,2.839-2.839V272Z" transform="translate(-223.744 -223.744)" fill="#ffc107"/>
+    </g>
+  </g>
+</svg>

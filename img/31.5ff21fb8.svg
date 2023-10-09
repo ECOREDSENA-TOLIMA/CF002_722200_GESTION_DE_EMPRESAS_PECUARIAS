@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="147" viewBox="0 0 147 147">
+  <g id="Grupo_1066787" data-name="Grupo 1066787" transform="translate(-453 -11691)">
+    <g id="Page-1" transform="translate(453 11691)">
+      <g id="_013---Closed" data-name="013---Closed">
+        <path id="Rectangle-path" d="M0,0H5.061V82.449H0Z" transform="translate(71.889 12.355) rotate(-52.924)" fill="#3f5c6c"/>
+        <path id="Rectangle-path-2" data-name="Rectangle-path" d="M0,0H84.491V5.061H0Z" transform="translate(6.06 57.996) rotate(-37.03)" fill="#3f5c6c"/>
+        <rect id="Rectangle-path-3" data-name="Rectangle-path" width="147" height="91" rx="4" transform="translate(0 56)" fill="#e64c3c"/>
+        <g id="Grupo_1015809" data-name="Grupo 1015809" transform="translate(7.591 73.619)">
+          <path id="Shape" d="M15.652,64.426C8.567,64.426,3,56.645,3,46.713S8.567,29,15.652,29a10.122,10.122,0,0,1,6.733,2.682,2.53,2.53,0,1,1-3.345,3.8,5.086,5.086,0,0,0-3.388-1.417c-4.114,0-7.591,5.795-7.591,12.652s3.477,12.652,7.591,12.652a5.086,5.086,0,0,0,3.388-1.417,2.53,2.53,0,1,1,3.345,3.8A10.122,10.122,0,0,1,15.652,64.426Z" transform="translate(-3 -29)" fill="#ecf0f1"/>
+          <path id="Shape-2" data-name="Shape" d="M30.387,64.426C24,64.426,19,56.645,19,46.713S24,29,30.387,29s11.387,7.781,11.387,17.713S36.771,64.426,30.387,64.426Zm0-30.365c-2.993,0-6.326,5.195-6.326,12.652s3.333,12.652,6.326,12.652,6.326-5.195,6.326-12.652S33.38,34.061,30.387,34.061Z" transform="translate(21.487 -29)" fill="#ecf0f1"/>
+          <path id="Shape-3" data-name="Shape" d="M27.183,64.426H14.53A2.53,2.53,0,0,1,12,61.9V31.53a2.53,2.53,0,1,1,5.061,0V59.365H27.183a2.53,2.53,0,0,1,0,5.061Z" transform="translate(10.774 -29)" fill="#ecf0f1"/>
+          <path id="Shape-4" data-name="Shape" d="M39.122,64.426A10.122,10.122,0,0,1,29,54.3a2.53,2.53,0,1,1,5.061,0,5.061,5.061,0,1,0,5.061-5.061A10.122,10.122,0,1,1,49.243,39.122a2.53,2.53,0,0,1-5.061,0,5.061,5.061,0,1,0-5.061,5.061,10.122,10.122,0,0,1,0,20.243Z" transform="translate(36.791 -29)" fill="#ecf0f1"/>
+          <path id="Shape-5" data-name="Shape" d="M54.183,59.365H44.061V49.243h7.591a2.53,2.53,0,1,0,0-5.061H44.061V34.061H54.183a2.53,2.53,0,1,0,0-5.061H44.061A5.061,5.061,0,0,0,39,34.061v25.3a5.061,5.061,0,0,0,5.061,5.061H54.183a2.53,2.53,0,1,0,0-5.061Z" transform="translate(52.095 -29)" fill="#ecf0f1"/>
+          <path id="Shape-6" data-name="Shape" d="M54.591,64.426h-2.53A5.061,5.061,0,0,1,47,59.365v-25.3A5.061,5.061,0,0,1,52.061,29h2.53A12.667,12.667,0,0,1,67.243,41.652V51.774A12.667,12.667,0,0,1,54.591,64.426Zm-2.53-30.365v25.3h2.53a7.591,7.591,0,0,0,7.591-7.591V41.652a7.591,7.591,0,0,0-7.591-7.591Z" transform="translate(64.338 -29)" fill="#ecf0f1"/>
+        </g>
+        <path id="Shape-7" data-name="Shape" d="M123.93,50.061H7.53A2.53,2.53,0,1,1,7.53,45h116.4a2.53,2.53,0,0,1,0,5.061Z" transform="translate(7.652 69.105)" fill="#c03a2b"/>
+        <path id="Shape-8" data-name="Shape" d="M87.382,54.061H16.53a2.53,2.53,0,1,1,0-5.061H87.382a2.53,2.53,0,0,1,0,5.061Z" transform="translate(21.426 75.227)" fill="#c03a2b"/>
+        <ellipse id="Oval" cx="8.5" cy="7.5" rx="8.5" ry="7.5" transform="translate(65 0)" fill="#95a5a5"/>
+      </g>
+    </g>
+  </g>
+</svg>
